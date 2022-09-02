@@ -1,5 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Lora&family=Merriweather&family=Poppins&family=Roboto+Serif:opsz@8..144&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+nav.bg-light {
+  background-color: #fdf4eb !important;
+}
+nav.bg-light a {
+  color: #6200EA !important;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.home__page .banner {
+  width: 100%;
+  height: 100vh;
+  background: url("../assets/images/4680620.jpg") no-repeat;
+  background-size: cover;
+}
+.home__page .banner .banner_inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 196px;
+}
+.home__page .banner .banner_inner h2 {
+  font-family: "Roboto Serif", serif;
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 64px;
+}
+.home__page .banner .banner_inner button {
+  width: 198px;
+  height: 63px;
+  font-size: 20px;
+  color: #fff;
+  background: #6200EA;
+  border-radius: 12px;
+}
+.home__page .products_section {
+  margin: 50px 0px;
+}
+.home__page .products_section .product-card {
+  display: flex;
+  gap: 10px;
+  padding: 15px 0px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 18px;
+}
+.home__page .products_section .product-card img {
+  width: 200px;
+  height: 140px;
+}
+.home__page .products_section .product-card .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+}
+.home__page .products_section .product-card .content .product-heading {
+  font-family: "Roboto Serif";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #313131;
+}
+.home__page .products_section .product-card .content .brand {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #6D6D6D;
+}
+.home__page .products_section .product-card .content .product-price {
+  font-family: "Roboto Serif", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #313131;
+}
+.home__page .products_section .product-card .content button {
+  font-family: "Roboto Serif", serif;
+  font-weight: 500;
+  padding: 9px 22px;
+  color: #6200EA;
+  background: #FFFFFF;
+  border: 1px solid #6200EA;
+  border-radius: 16px;
+}
+
+@media (max-width: 767px) {
+  .home__page .banner h2 {
+    font-size: 30px;
+  }
+}
+.swiper {
+  width: 600px;
+  height: 300px;
 }
