@@ -1,4 +1,4 @@
-<footer class="pt-lg-5">
+<footer class="pt-lg-5 mt-lg-5">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-3 col-12">
@@ -12,10 +12,10 @@
                     KawaiToys
                     </div>
                     <ul class="quick-links">
-                        <li><a href="">About us</a></li>
-                        <li><a href="">Contact us</a></li>
-                        <li><a href="">Privacy Policy</a></li>
-                        <li><a href="">Terms & Condition</a></li>
+                        <li><a href="about.php">About us</a></li>
+                        <li><a href="contact.php">Contact us</a></li>
+                        <li><a href="privacy.php">Privacy Policy</a></li>
+                        <li><a href="terms.php">Terms & Condition</a></li>
                     </ul>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
                 </div>

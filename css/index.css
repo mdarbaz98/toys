@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .paymentmode-section .container {
   max-width: 1000px;
 }
@@ -33,16 +37,16 @@
   height: 45px;
   align-items: center;
   justify-content: center;
-  background: #FFFFFF;
-  border: 1px solid #0C3072;
+  background: #ffffff;
+  border: 1px solid #0c3072;
   border-radius: 18px;
   font-weight: 500;
   font-size: 17px;
-  color: #0C3072;
+  color: #0c3072;
   font-family: "Poppins", sans-serif;
 }
 .paymentmode-section .container .paymentmode-main .icon-content button:hover {
-  background-color: #0C3072;
+  background-color: #0c3072;
   color: #fff;
 }
 .paymentmode-section .container .paymentmode-main .icon-content p {
@@ -51,13 +55,13 @@
   font-size: 17px;
 }
 .paymentmode-section .container .paymentmode-main .icon-content .icon-p-con1 {
-  color: #11AB36;
+  color: #11ab36;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   margin: 0px 20px 0px 0px;
 }
 .paymentmode-section .container .paymentmode-main .icon-content .icon-p-con2 {
-  color: #9C36D4;
+  color: #9c36d4;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   margin: 0px 20px 0px 0px;
@@ -69,10 +73,10 @@
 }
 
 nav.bg-light {
-  background-color: #fdf4eb !important;
+  background-color: transparent !important;
 }
 nav.bg-light a {
-  color: #6200EA !important;
+  color: #6200ea !important;
   font-weight: 700;
   font-size: 36px;
   font-family: "Domine", serif;
@@ -105,11 +109,13 @@ nav.bg-light a {
   height: 63px;
   font-size: 20px;
   color: #fff;
-  background: #6200EA;
+  background: #6200ea;
   border-radius: 12px;
+  border: none;
 }
 .home__page .products_section {
-  margin: 50px 0px;
+  background: #FFF9F3;
+  padding: 50px 0px;
 }
 .home__page .products_section .section-heading {
   font-family: "Lato", sans-serif;
@@ -193,18 +199,18 @@ nav.bg-light a {
   width: auto;
 }
 .home__page .owl-nav button {
-  Width: 34px;
+  width: 34px;
   height: 34px;
-  background: #FFFFFF !important;
+  background: #ffffff !important;
   border-radius: 50px;
-  border: 1px solid #C9C9C9 !important;
+  border: 1px solid #c9c9c9 !important;
 }
 .home__page .owl-nav button i {
-  color: #6200EA;
+  color: #6200ea;
 }
 
 footer {
-  background: #6200EA;
+  background: #6200ea;
 }
 footer .first-image-div img {
   width: 287px;
@@ -259,28 +265,62 @@ footer .second-image-div img {
   z-index: 1;
 }
 
-.privacy__page {
+.privacy__page,
+.terms__page {
   padding-top: 100px;
 }
-.privacy__page .side-topic li {
+.privacy__page .accordion-button,
+.terms__page .accordion-button {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 10px 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 14px !important;
+  -webkit-border-radius: 14px !important;
+  -moz-border-radius: 14px !important;
+  -ms-border-radius: 14px !important;
+  -o-border-radius: 14px !important;
+}
+.privacy__page .side-topic,
+.terms__page .side-topic {
+  padding-left: 0px;
+}
+.privacy__page .side-topic li,
+.terms__page .side-topic li {
+  padding-left: 10px;
+  border-left: #1b3c74 solid 3px;
   list-style: none;
   font-family: "Merriweather", serif;
   font-size: 16px;
   font-weight: 700;
-  line-height: 15px;
+  line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
-.privacy__page .heading-section {
+.privacy__page .side-topic li a,
+.terms__page .side-topic li a {
+  text-decoration: none;
+  color: #1b3c74;
+}
+.privacy__page .heading-section,
+.terms__page .heading-section {
   display: flex;
+  align-items: center;
   gap: 10px;
 }
-.privacy__page .heading-section img {
+.privacy__page .heading-section img,
+.terms__page .heading-section img {
   width: 20px;
   height: 20px;
+  margin-bottom: 32px;
 }
-.privacy__page h1, .privacy__page h2 {
+.privacy__page h1,
+.privacy__page h2,
+.terms__page h1,
+.terms__page h2 {
   font-family: "Merriweather", serif;
   font-size: 20px;
   font-weight: 700;
@@ -289,7 +329,8 @@ footer .second-image-div img {
   text-align: left;
   margin-bottom: 32px;
 }
-.privacy__page p {
+.privacy__page p,
+.terms__page p {
   font-family: "Merriweather", serif;
   font-size: 14px;
   font-weight: 400;
@@ -298,10 +339,84 @@ footer .second-image-div img {
   text-align: left;
 }
 
+.about__page {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.about__page h1 {
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 30px;
+}
+.about__page .desc {
+  font-family: "Roboto Serif", serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  margin: auto;
+  text-align: center;
+  width: 583px;
+}
+.about__page img {
+  width: 100%;
+  object-fit: cover;
+}
+.about__page p {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.contact__page {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.contact__page h1 {
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #222222;
+  margin: 40px;
+}
+.contact__page p {
+  font-family: "Roboto Serif", serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  max-width: 583px;
+  margin: auto;
+}
+.contact__page a {
+  font-family: "Roboto Serif", serif;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000;
+  margin: 40px;
+  display: block;
+}
+
 @media (max-width: 767px) {
   nav.bg-light a {
     font-size: 30px;
   }
+
   .home__page .banner .banner_inner h2 {
     font-size: 30px;
   }
@@ -309,6 +424,7 @@ footer .second-image-div img {
     width: 146px;
     height: 48px;
   }
+
   footer .second-image-div {
     height: 230px;
   }
@@ -322,5 +438,16 @@ footer .second-image-div img {
   footer .middle-section p {
     font-size: 20px;
     z-index: 2;
+  }
+
+  .about__page h1 {
+    font-size: 24px;
+  }
+  .about__page .desc {
+    width: unset;
+  }
+
+  .contact__page h1 {
+    font-size: 24px;
   }
 }

@@ -22,7 +22,7 @@
 <body>
     <nav class="navbar navbar-light fixed-top bg-light p-0">
         <div class="container">
-            <a class="navbar-brand m-auto" href="#">
+            <a class="navbar-brand m-auto" href="index.php">
                 Kawaitoys
             </a>
         </div>
