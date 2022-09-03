@@ -113,6 +113,12 @@ nav.bg-light a {
   border-radius: 16px;
 }
 @media (max-width: 767px) {
+  .home__page .products_section .product-card {
+    margin: 15px;
+  }
+}
+
+@media (max-width: 767px) {
   nav.bg-light a {
     font-size: 30px;
   }

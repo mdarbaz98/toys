@@ -10,7 +10,7 @@ include('./include/header.php')
     </div>
     <div class="products_section">
         <div class="section-heading">Bear & Soft Toys</div>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row owl-carousel">
                 <div class="col-12">
                     <div class="product-card">
