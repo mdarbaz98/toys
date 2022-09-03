@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light fixed-top bg-light">
+    <nav class="navbar navbar-light fixed-top bg-light p-0">
         <div class="container">
             <a class="navbar-brand m-auto" href="#">
                 Kawaitoys
