@@ -5,6 +5,69 @@
   box-sizing: border-box;
 }
 
+.paymentmode-section .container {
+  max-width: 1000px;
+}
+.paymentmode-section .container .paymentmode-main {
+  border-radius: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 33px;
+}
+.paymentmode-section .container .paymentmode-main .icon-image .icon-image-content {
+  font-family: "Lora", serif;
+}
+.paymentmode-section .container .paymentmode-main .icon-image img {
+  width: 45px;
+  margin: 0px 16px 0px 16px;
+  object-fit: contain;
+}
+.paymentmode-section .container .paymentmode-main .icon-image p {
+  margin-bottom: 0px;
+  font-weight: 700;
+  font-size: 16px;
+}
+.paymentmode-section .container .paymentmode-main .icon-content button {
+  width: 150px;
+  display: flex;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  border: 1px solid #0C3072;
+  border-radius: 18px;
+  font-weight: 500;
+  font-size: 17px;
+  color: #0C3072;
+  font-family: "Poppins", sans-serif;
+}
+.paymentmode-section .container .paymentmode-main .icon-content button:hover {
+  background-color: #0C3072;
+  color: #fff;
+}
+.paymentmode-section .container .paymentmode-main .icon-content p {
+  margin: 0px 0px 0px 15px;
+  font-weight: 600;
+  font-size: 17px;
+}
+.paymentmode-section .container .paymentmode-main .icon-content .icon-p-con1 {
+  color: #11AB36;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  margin: 0px 20px 0px 0px;
+}
+.paymentmode-section .container .paymentmode-main .icon-content .icon-p-con2 {
+  color: #9C36D4;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  margin: 0px 20px 0px 0px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .paymentmode-section .paymentmode-main {
+    margin-bottom: 25px !important;
+  }
+}
+
 nav.bg-light {
   background-color: #fdf4eb !important;
 }
