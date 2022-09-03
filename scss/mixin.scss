@@ -1,0 +1,69 @@
+@use './font.scss' as *;
+
+@mixin card {
+    .product-card {
+        display: flex;
+        padding: 15px 0px;
+        margin: 20px;
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
+        border-radius: 18px;
+    
+        img {
+            width: 200px;
+            height: 140px;
+            object-fit: contain;
+        }
+    
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            gap: 10px;
+    
+            .product-heading {
+                font-family: 'Roboto Serif';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 23px;
+                color: #313131;
+            }
+    
+            .brand {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                text-align: center;
+                color: #6D6D6D;
+            }
+    
+            .product-price {
+                font-family: $font-robo;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 23px;
+                text-align: center;
+                color: #313131;
+            }
+    
+            button {
+                font-family: $font-robo;
+                font-weight: 500;
+                padding: 9px 22px;
+                color: #6200EA;
+                background: #FFFFFF;
+                border: 1px solid #6200EA;
+                border-radius: 16px;
+            }
+        }
+    }
+    @media (max-width: 767px){
+        
+    }
+}

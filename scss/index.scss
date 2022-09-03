@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Merriweather&family=Poppins&family=Roboto+Serif:opsz@8..144&display=swap');
+@use './mixin.scss' as *;
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lora&family=Merriweather&family=Poppins&family=Roboto+Serif:opsz@8..144&display=swap');
 
 * {
     margin: 0;
@@ -21,16 +22,19 @@ $font-robo: 'Roboto Serif', serif;
             border: 1px solid rgba(0, 0, 0, 0.2);
             box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.08);
             margin-bottom: 33px;
+
             .icon-image {
-                .icon-image-content{
+                .icon-image-content {
                     font-family: $font-lora;
                 }
+
                 img {
                     width: 45px;
                     margin: 0px 16px 0px 16px;
                     object-fit: contain;
                 }
-                p{
+
+                p {
                     margin-bottom: 0px;
                     font-weight: 700;
                     font-size: 16px;
@@ -38,7 +42,7 @@ $font-robo: 'Roboto Serif', serif;
             }
 
             .icon-content {
-                button{
+                button {
                     width: 150px;
                     display: flex;
                     height: 45px;
@@ -52,35 +56,130 @@ $font-robo: 'Roboto Serif', serif;
                     color: #0C3072;
                     font-family: "Poppins", sans-serif;
 
-                &:hover{
-                    background-color:  #0C3072;
-                    color: #fff;
+                    &:hover {
+                        background-color: #0C3072;
+                        color: #fff;
+                    }
                 }
-                }
-                p{
+
+                p {
                     margin: 0px 0px 0px 15px;
                     font-weight: 600;
                     font-size: 17px;
                 }
-                .icon-p-con1{
-                    color:#11AB36;
+
+                .icon-p-con1 {
+                    color: #11AB36;
                     font-size: 14px;
                     font-family: $font-pop;
                     margin: 0px 20px 0px 0px;
                 }
-                .icon-p-con2{
-                    color:#9C36D4;
+
+                .icon-p-con2 {
+                    color: #9C36D4;
                     font-size: 14px;
                     font-family: $font-pop;
                     margin: 0px 20px 0px 0px;
                 }
-                
+
             }
         }
     }
-    @media (min-width: 320px) and (max-width: 767px){
+
+    @media (min-width: 320px) and (max-width: 767px) {
         .paymentmode-main {
             margin-bottom: 25px !important;
         }
     }
 }
+
+    $font-lato: 'Lato',
+        sans-serif;
+
+    // header scss 
+    nav.bg-light {
+        background-color: #fdf4eb !important;
+
+        a {
+            color: #6200EA !important;
+            font-weight: 700;
+            font-size: 36px;
+        }
+    }
+
+    // home page scss
+    .home__page {
+        .banner {
+            width: 100%;
+            height: 100vh;
+            background: url('../assets/images/4680620.jpg') no-repeat;
+            background-size: cover;
+
+            .banner_inner {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding-top: 196px;
+
+                h2 {
+                    font-family: $font-robo;
+                    font-size: 46px;
+                    font-weight: 500;
+                    line-height: 54px;
+                    letter-spacing: 0em;
+                    text-align: center;
+                    padding-bottom: 64px;
+                }
+
+                button {
+                    width: 198px;
+                    height: 63px;
+                    font-size: 20px;
+                    color: #fff;
+                    background: #6200EA;
+                    border-radius: 12px;
+                }
+            }
+        }
+
+        .products_section {
+            margin: 50px 0px;
+
+            .section-heading {
+                font-family: Lato;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 29px;
+                letter-spacing: 0em;
+                text-align: center;
+                margin-bottom: 50px
+            }
+
+            @include card;
+        }
+    }
+
+
+    @media (max-width: 767px) {
+        nav.bg-light {
+            a {
+                font-size: 30px;
+            }
+        }
+
+        .home__page {
+            .banner {
+                .banner_inner {
+                    h2 {
+                        font-size: 30px;
+                    }
+
+                    button {
+                        width: 146px;
+                        height: 48px;
+                    }
+                }
+            }
+        }
+    }
