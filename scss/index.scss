@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Merriweather&family=Poppins&family=Roboto+Serif:opsz@8..144&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,3 +11,76 @@ $font-lora: 'Lora', serif;
 $font-meri: 'Merriweather', serif;
 $font-pop: 'Poppins', sans-serif;
 $font-robo: 'Roboto Serif', serif;
+
+.paymentmode-section {
+    .container {
+        max-width: 1000px;
+
+        .paymentmode-main {
+            border-radius: 18px;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.08);
+            margin-bottom: 33px;
+            .icon-image {
+                .icon-image-content{
+                    font-family: $font-lora;
+                }
+                img {
+                    width: 45px;
+                    margin: 0px 16px 0px 16px;
+                    object-fit: contain;
+                }
+                p{
+                    margin-bottom: 0px;
+                    font-weight: 700;
+                    font-size: 16px;
+                }
+            }
+
+            .icon-content {
+                button{
+                    width: 150px;
+                    display: flex;
+                    height: 45px;
+                    align-items: center;
+                    justify-content: center;
+                    background: #FFFFFF;
+                    border: 1px solid #0C3072;
+                    border-radius: 18px;
+                    font-weight: 500;
+                    font-size: 17px;
+                    color: #0C3072;
+                    font-family: "Poppins", sans-serif;
+
+                &:hover{
+                    background-color:  #0C3072;
+                    color: #fff;
+                }
+                }
+                p{
+                    margin: 0px 0px 0px 15px;
+                    font-weight: 600;
+                    font-size: 17px;
+                }
+                .icon-p-con1{
+                    color:#11AB36;
+                    font-size: 14px;
+                    font-family: $font-pop;
+                    margin: 0px 20px 0px 0px;
+                }
+                .icon-p-con2{
+                    color:#9C36D4;
+                    font-size: 14px;
+                    font-family: $font-pop;
+                    margin: 0px 20px 0px 0px;
+                }
+                
+            }
+        }
+    }
+    @media (min-width: 320px) and (max-width: 767px){
+        .paymentmode-main {
+            margin-bottom: 25px !important;
+        }
+    }
+}
