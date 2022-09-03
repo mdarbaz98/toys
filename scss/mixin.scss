@@ -66,6 +66,9 @@
     @media (max-width: 767px){
         .product-card{
             margin: 15px;
+            img {
+                width: 170px;
+            }
         }
     }
 }

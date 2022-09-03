@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&family=Lora&family=Merriweather&family=Poppins&family=Roboto+Serif:opsz@8..144&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Domine&family=Lato&family=Lora&family=Merriweather&family=Poppins&family=Roboto+Serif:opsz@8..144&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -75,6 +75,7 @@ nav.bg-light a {
   color: #6200EA !important;
   font-weight: 700;
   font-size: 36px;
+  font-family: "Domine", serif;
 }
 
 .home__page .banner {
@@ -111,7 +112,7 @@ nav.bg-light a {
   margin: 50px 0px;
 }
 .home__page .products_section .section-heading {
-  font-family: Lato;
+  font-family: "Lato", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 29px;
@@ -179,6 +180,83 @@ nav.bg-light a {
   .home__page .products_section .product-card {
     margin: 15px;
   }
+  .home__page .products_section .product-card img {
+    width: 170px;
+  }
+}
+.home__page .owl-nav {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: -30px;
+  right: 0px;
+  width: auto;
+}
+.home__page .owl-nav button {
+  Width: 34px;
+  height: 34px;
+  background: #FFFFFF !important;
+  border-radius: 50px;
+  border: 1px solid #C9C9C9 !important;
+}
+.home__page .owl-nav button i {
+  color: #6200EA;
+}
+
+footer {
+  background: #6200EA;
+}
+footer .first-image-div img {
+  width: 287px;
+  height: 223px;
+}
+footer .middle-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+footer .middle-section .footer-heading {
+  font-family: "Roboto Serif", serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+footer .middle-section .quick-links {
+  padding-left: 0px;
+  display: flex;
+  gap: 30px;
+}
+footer .middle-section .quick-links li {
+  list-style: none;
+}
+footer .middle-section .quick-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Roboto Serif", serif;
+}
+footer .middle-section p {
+  font-family: "Roboto Serif", serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+footer .second-image-div {
+  position: relative;
+}
+footer .second-image-div img {
+  position: absolute;
+  bottom: -210px;
+  right: 0px;
+  width: 349px;
+  height: 334px;
+  z-index: 1;
 }
 
 @media (max-width: 767px) {
@@ -191,5 +269,19 @@ nav.bg-light a {
   .home__page .banner .banner_inner button {
     width: 146px;
     height: 48px;
+  }
+  footer .second-image-div {
+    height: 230px;
+  }
+  footer .second-image-div img {
+    bottom: 0px;
+  }
+  footer .middle-section .quick-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  footer .middle-section p {
+    font-size: 20px;
+    z-index: 2;
   }
 }
