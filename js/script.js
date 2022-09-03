@@ -1,23 +1,18 @@
-alert('hi')
-
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'vertical',
-    loop: true,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
+$('.owl-carousel').owlCarousel({
+  loop: true,
+  nav: true,
+  dots: false,
+  responsive: {
+    0: {
+      items: 1,
     },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+    600: {
+      items: 3,
     },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
+    1000: {
+      items: 3,
+      touchDrag: false,
+      mouseDrag  : false,
     },
-  });
+  },
+})

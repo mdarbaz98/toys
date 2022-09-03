@@ -64,22 +64,40 @@ nav.bg-light {
 
     .products_section {
         margin: 50px 0px;
+
+        .section-heading {
+            font-family: Lato;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 29px;
+            letter-spacing: 0em;
+            text-align: center;
+            margin-bottom: 50px
+        }
+
         @include card;
     }
 }
 
 
 @media (max-width: 767px) {
+    nav.bg-light {
+        a{
+            font-size: 30px;
+        }
+    }
     .home__page {
         .banner {
-            h2 {
-                font-size: 30px;
+            .banner_inner {
+                h2 {
+                    font-size: 30px;
+                }
+
+                button {
+                    width: 146px;
+                    height: 48px;
+                }
             }
         }
     }
 }
-
-.swiper {
-    width: 600px;
-    height: 300px;
-  }
