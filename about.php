@@ -7,7 +7,7 @@ include('./include/header.php')
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <img src="./assets//images/" alt="">
+                <img class="pt-5 pb-5 p-lg-0" src="./assets//images/about.png" alt="">
             </div>
             <div class="col-lg-6">
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting
