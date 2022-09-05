@@ -1,7 +1,7 @@
 <?php
 include('./include/header.php')
 ?>
-<section class="terms__page">
+<section class="terms__page pb-lg-5">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-3">

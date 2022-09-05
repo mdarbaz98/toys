@@ -1,4 +1,4 @@
-<footer class="pt-lg-5 mt-lg-5">
+<footer class="pt-lg-5">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-3 col-12">
@@ -9,7 +9,7 @@
             <div class="col-lg-6 col-12">
                 <div class="middle-section">
                     <div class="footer-heading">
-                    KawaiToys
+                    <a href="index.php">KawaiToys</a>
                     </div>
                     <ul class="quick-links">
                         <li><a href="about.php">About us</a></li>

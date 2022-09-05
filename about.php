@@ -1,7 +1,7 @@
 <?php
 include('./include/header.php')
 ?>
-<section class="about__page pt-5 mt-lg-5">
+<section class="about__page pt-5 mt-lg-5 pb-lg-5">
     <h1>About KawaiToys</h1>
     <div class="desc mb-lg-5 pb-lg-4">Kawaitoys is a Platform where any age group children can get there toys at one stop</div>
     <div class="container">

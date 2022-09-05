@@ -9,8 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- bootstrap CDN  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- fontawesom new version -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
      <!-- owl carousel  -->
      <link
       rel="stylesheet"
@@ -21,6 +21,13 @@
 
 <body>
     <nav class="navbar navbar-light fixed-top bg-light p-0">
+        <button class="menu-btn"><i class="fa-sharp fa-solid fa-bars"></i></button>
+        <ul class="menu-items">
+            <li>Bear & Soft Toys</li>
+            <li>Bear & Soft Toys</li>
+            <li>Bear & Soft Toys</li>
+            <li>Bear & Soft Toys</li>
+        </ul>
         <div class="container">
             <a class="navbar-brand m-auto" href="index.php">
                 Kawaitoys

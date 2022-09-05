@@ -1,7 +1,7 @@
 <?php
 include('./include/header.php')
 ?>
-<section class="privacy__page">
+<section class="privacy__page pb-lg-5">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-3">

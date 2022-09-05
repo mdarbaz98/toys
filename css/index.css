@@ -82,6 +82,9 @@ nav.bg-light a {
   font-family: "Domine", serif;
 }
 
+.home__page {
+  background: #FFF9F3;
+}
 .home__page .banner {
   width: 100%;
   height: 100vh;
@@ -114,7 +117,6 @@ nav.bg-light a {
   border: none;
 }
 .home__page .products_section {
-  background: #FFF9F3;
   padding: 50px 0px;
 }
 .home__page .products_section .section-heading {
@@ -137,7 +139,7 @@ nav.bg-light a {
 }
 .home__page .products_section .product-card img {
   width: 200px;
-  height: 140px;
+  height: 175px;
   object-fit: contain;
 }
 .home__page .products_section .product-card .content {
@@ -188,6 +190,7 @@ nav.bg-light a {
   }
   .home__page .products_section .product-card img {
     width: 170px;
+    height: 140px;
   }
 }
 .home__page .owl-nav {
@@ -222,8 +225,9 @@ footer .middle-section {
   gap: 20px;
   align-items: center;
 }
-footer .middle-section .footer-heading {
+footer .middle-section .footer-heading a {
   font-family: "Roboto Serif", serif;
+  text-decoration: none;
   font-size: 28px;
   font-weight: 600;
   line-height: 33px;
@@ -416,7 +420,29 @@ footer .second-image-div img {
   nav.bg-light a {
     font-size: 30px;
   }
-
+  nav.bg-light .menu-items {
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    width: 100%;
+    height: fit-content;
+    padding: 25px;
+    background-color: #fff;
+  }
+  nav.bg-light .menu-items li {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  nav.bg-light .menu-items li a {
+    text-decoration: none;
+    color: #000;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
   .home__page .banner .banner_inner h2 {
     font-size: 30px;
   }
@@ -424,7 +450,9 @@ footer .second-image-div img {
     width: 146px;
     height: 48px;
   }
-
+  .home__page .products_section {
+    padding: 20px 0px;
+  }
   footer .second-image-div {
     height: 230px;
   }
@@ -439,14 +467,12 @@ footer .second-image-div img {
     font-size: 20px;
     z-index: 2;
   }
-
   .about__page h1 {
     font-size: 24px;
   }
   .about__page .desc {
     width: unset;
   }
-
   .contact__page h1 {
     font-size: 24px;
   }

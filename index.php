@@ -1,7 +1,7 @@
 <?php
 include('./include/header.php')
 ?>
-<section class="home__page">
+<section class="home__page pb-lg-5">
     <div class="banner">
         <div class="banner_inner">
             <h2>The Coolest Toy Store On The Planet</h2>

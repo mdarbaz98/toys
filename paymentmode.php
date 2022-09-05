@@ -1,7 +1,7 @@
 <?php 
 include('./include/header.php')
 ?> 
-<section class="paymentmode-section">
+<section class="paymentmode-section pb-lg-5">
   <div class="container mt-4">
     <div class="row">
       <div class="col-lg-12 col-sm-12 ">
