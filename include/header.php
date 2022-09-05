@@ -21,13 +21,13 @@
 
 <body>
     <nav class="navbar navbar-light fixed-top bg-light p-0">
-        <button class="menu-btn"><i class="fa-sharp fa-solid fa-bars"></i></button>
+        <!-- <button class="menu-btn"><i class="fa-sharp fa-solid fa-bars"></i></button>
         <ul class="menu-items">
             <li>Bear & Soft Toys</li>
             <li>Bear & Soft Toys</li>
             <li>Bear & Soft Toys</li>
             <li>Bear & Soft Toys</li>
-        </ul>
+        </ul> -->
         <div class="container">
             <a class="navbar-brand m-auto" href="index.php">
                 Kawaitoys
