@@ -354,17 +354,28 @@ footer .second-image-div img {
 }
 
 @media (max-width: 767px) {
+  nav.bg-light button {
+    position: absolute;
+    top: 11px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+  }
   nav.bg-light a {
     font-size: 30px;
   }
   nav.bg-light .menu-items {
     position: absolute;
     left: 0px;
-    top: 50px;
+    top: 68px;
     width: 100%;
-    height: fit-content;
-    padding: 25px;
-    background-color: #fff;
+    height: 0;
+    overflow: hidden;
+    padding: 20px 20px 0px 20px;
+    transition: all 0.3s linear;
   }
   nav.bg-light .menu-items li {
     list-style: none;
@@ -379,6 +390,10 @@ footer .second-image-div img {
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
+  }
+  nav.bg-light .show-links {
+    background-color: #fff;
+    height: 12rem;
   }
   .home__page .banner .banner_inner h2 {
     font-size: 30px;

@@ -336,6 +336,18 @@ footer {
 
 @media (max-width: 767px) {
     nav.bg-light {
+        button {
+            position: absolute;
+            top:11px;
+            left: 10px;
+            width: 30px;
+            height: 30px;
+            // background: #6200EA;
+            border: none;
+            border-radius: 20px;
+            color: #fff;
+        }
+
         a {
             font-size: 30px;
         }
@@ -343,11 +355,12 @@ footer {
         .menu-items {
             position: absolute;
             left: 0px;
-            top: 50px;
+            top: 68px;
             width: 100%;
-            height: fit-content;
-            padding: 25px;
-            background-color: #fff;
+            height: 0;
+            overflow: hidden;
+            padding: 20px 20px 0px 20px;
+            transition: all 0.3s linear;
 
             li {
                 list-style: none;
@@ -365,6 +378,11 @@ footer {
 
                 }
             }
+        }
+
+        .show-links {
+            background-color: #fff;
+            height: 12rem;
         }
     }
 
@@ -646,6 +664,7 @@ footer {
                     height: auto;
                 }
             }
+
             .relatedproducts-main {
                 .related-section {
                     margin-top: 45px;

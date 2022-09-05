@@ -21,13 +21,27 @@
 
 <body>
     <nav class="navbar navbar-light fixed-top bg-light p-0">
-        <!-- <button class="menu-btn"><i class="fa-sharp fa-solid fa-bars"></i></button>
+        <div class="nav-main d-lg-none">
+        <button class="menu-btn"><img src="./assets/images/Hamburger.svg" alt=""></button>
         <ul class="menu-items">
-            <li>Bear & Soft Toys</li>
-            <li>Bear & Soft Toys</li>
-            <li>Bear & Soft Toys</li>
-            <li>Bear & Soft Toys</li>
-        </ul> -->
+          <div class="menuitem-in d-flex justify-content-between">
+          <li>Bear & Soft Toys</li>
+          <span><i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+          <div class="menuitem-in d-flex justify-content-between">
+          <li>Action Figure</li>
+          <span><i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+          <div class="menuitem-in d-flex justify-content-between">
+          <li>Bear & Soft Toys</li>
+          <span><i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+          <div class="menuitem-in d-flex justify-content-between">
+          <li>Action Figure</li>
+          <span><i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </ul>
+        </div>
         <div class="container">
             <a class="navbar-brand m-auto" href="index.php">
                 Kawaitoys

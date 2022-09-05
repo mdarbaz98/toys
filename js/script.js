@@ -17,3 +17,10 @@ $('.owl-carousel').owlCarousel({
     },
   },
 })
+
+const togglebtn=document.querySelector(".menu-btn");
+const menuitem=document.querySelector(".menu-items")
+
+togglebtn.addEventListener("click",function(){
+  $(".menu-items").toggleClass("show-links")
+})
