@@ -352,6 +352,7 @@ footer {
             li {
                 list-style: none;
                 margin-bottom: 20px;
+
                 a {
                     text-decoration: none;
                     color: #000;
@@ -601,6 +602,7 @@ footer {
                 .form-control:focus {
                     box-shadow: none;
                 }
+
                 .form-btn {
                     width: 138px;
                     height: 41px;
@@ -614,8 +616,43 @@ footer {
                 }
             }
         }
-        .related-section{
-            // @include product-card ;
+
+        .relatedproducts-main {
+            h1 {
+                font-family: $font-lato;
+                font-weight: 700;
+                font-size: 24px;
+                color: #1F1E1E;
+                text-align: center
+            }
+
+            .related-section {
+                @include card;
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .checkout-section {
+        margin-top: 0px;
+
+        .container {
+            margin-top: 50px;
+
+            .leftimg {
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .relatedproducts-main {
+                .related-section {
+                    margin-top: 45px;
+                    @include nav;
+                }
+            }
+
         }
     }
 }
