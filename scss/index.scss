@@ -86,26 +86,7 @@ nav.bg-light {
         @include card;
     }
 
-    .owl-nav {
-        display: flex;
-        gap: 10px;
-        position: absolute;
-        top: -30px;
-        right: 0px;
-        width: auto;
-
-        button {
-            width: 34px;
-            height: 34px;
-            background: #ffffff !important;
-            border-radius: 50px;
-            border: 1px solid #c9c9c9 !important;
-
-            i {
-                color: #6200ea;
-            }
-        }
-    }
+    @include nav;
 }
 
 footer {
