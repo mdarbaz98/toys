@@ -108,8 +108,7 @@ footer {
         top: 23%;
         left: 32%;
 
-        .footer-heading
-        {
+        .footer-heading {
             img {
                 width: 75px;
                 object-fit: contain;
@@ -127,8 +126,7 @@ footer {
             }
         }
 
-        .quick-links 
-        {
+        .quick-links {
             padding-left: 0px;
             display: flex;
             gap: 30px;
@@ -628,3 +626,28 @@ footer {
 }
 
 // checkout form
+
+//mens category
+.mens-category {
+    margin: 80px 0px 50px 0px;
+    h1 {
+        font-family: $font-pop;
+        text-align: center;
+        font-weight: 600;
+        font-size: 34px;
+    }
+
+    .tshirt-heading {
+        h2 {
+            font-family: $font-pop;
+            font-weight: 600;
+            font-size: 30px;
+            text-align: center;
+            margin-top: 40px;
+        }
+    }
+
+    @include card
+}
+
+//mens category
