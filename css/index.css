@@ -18,40 +18,58 @@ nav.bg-light a {
   font-size: 36px;
   font-family: "Domine", serif;
 }
+nav.bg-light a img {
+  width: 90px;
+}
 
-.home__page {
-  background: #FFF9F3;
-}
 .home__page .banner {
-  width: 100%;
-  height: 100vh;
-  background: url("../assets/images/4680620.jpg") no-repeat;
-  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
-.home__page .banner .banner_inner {
+.home__page .banner img {
+  width: 100%;
+  height: 721px;
+  object-fit: cover;
+}
+.home__page .banner .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 196px;
 }
-.home__page .banner .banner_inner h2 {
-  font-family: "Roboto Serif", serif;
-  font-size: 46px;
-  font-weight: 500;
+.home__page .banner .content h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
   line-height: 54px;
   letter-spacing: 0em;
-  text-align: center;
-  padding-bottom: 64px;
+  text-align: left;
+  margin-bottom: 60px;
+  color: #233570;
 }
-.home__page .banner .banner_inner button {
-  width: 198px;
-  height: 63px;
-  font-size: 20px;
-  color: #fff;
-  background: #6200ea;
+.home__page .banner .content .buttons .btn {
+  width: 124px;
+}
+.home__page .banner .content .buttons .first-btn {
+  background: #233570;
   border-radius: 12px;
-  border: none;
+  color: #fff;
+}
+.home__page .banner .content .buttons .sec-btn {
+  border: 2px solid #233570;
+  border-radius: 12px;
+}
+.home__page .banner .content a {
+  position: relative;
+  color: #233570;
+  margin-top: 90px;
+}
+.home__page .banner .content a i {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  transform: rotate(90deg);
 }
 .home__page .products_section {
   padding: 50px 0px;
@@ -411,14 +429,24 @@ footer .middle-section p {
     background-color: #fff;
     height: 12rem;
   }
-  .home__page .banner .banner_inner h2 {
-    font-size: 30px;
+  .home__page .banner {
+    display: block;
   }
-  .home__page .banner .banner_inner button {
-    width: 146px;
-    height: 48px;
+  .home__page .banner img {
+    min-height: 471px;
+  }
+  .home__page .banner .content h1 {
+    font-size: 22px;
+    text-align: center;
+    line-height: 33px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .home__page .banner .content a {
+    margin-top: 40px;
   }
   .home__page .products_section {
+    margin-top: 50px;
     padding: 20px 0px;
   }
   footer .middle-section .quick-links {
