@@ -90,12 +90,12 @@ nav.bg-light {
 }
 
 footer {
-    background: #6200ea;
+    position: relative;
 
-    .first-image-div {
+    .banner-image {
         img {
-            width: 287px;
-            height: 223px;
+            width: 100%;
+            object-fit: contain;
         }
     }
 
@@ -104,8 +104,17 @@ footer {
         flex-direction: column;
         gap: 20px;
         align-items: center;
+        position: absolute;
+        top: 23%;
+        left: 32%;
 
-        .footer-heading {
+        .footer-heading
+        {
+            img {
+                width: 75px;
+                object-fit: contain;
+            }
+
             a {
                 font-family: $font-robo;
                 text-decoration: none;
@@ -114,11 +123,12 @@ footer {
                 line-height: 33px;
                 letter-spacing: 0em;
                 text-align: center;
-                color: #fff;
+                color: #233570;
             }
         }
 
-        .quick-links {
+        .quick-links 
+        {
             padding-left: 0px;
             display: flex;
             gap: 30px;
@@ -128,7 +138,7 @@ footer {
 
                 a {
                     text-decoration: none;
-                    color: #fff;
+                    color: #2B2B2B;
                     font-family: $font-robo;
                 }
             }
@@ -141,20 +151,29 @@ footer {
             line-height: 23px;
             letter-spacing: 0em;
             text-align: center;
-            color: #fff;
+            color: #2B2B2B;
         }
     }
 
-    .second-image-div {
-        position: relative;
-
-        img {
+    @media (min-width: 320px) and (max-width: 767px) {
+        .middle-section {
+            display: flex;
+            flex-direction: column;
+            gap: 13px;
+            align-items: center;
             position: absolute;
-            bottom: -210px;
-            right: 0px;
-            width: 349px;
-            height: 334px;
-            z-index: 1;
+            top: 14%;
+            left: 4%;
+
+            .footer-heading {
+                a {
+                    font-size: 20px;
+                }
+            }
+
+            p {
+                font-size: 17px;
+            }
         }
     }
 }
@@ -319,7 +338,7 @@ footer {
     nav.bg-light {
         button {
             position: absolute;
-            top:11px;
+            top: 11px;
             left: 10px;
             width: 30px;
             height: 30px;
@@ -387,23 +406,11 @@ footer {
     }
 
     footer {
-        .second-image-div {
-            height: 230px;
-
-            img {
-                bottom: 0px;
-            }
-        }
-
         .middle-section {
             .quick-links {
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
-            }
-
-            p {
-                font-size: 20px;
-                z-index: 2;
+                text-align: center;
             }
         }
     }
@@ -569,14 +576,6 @@ footer {
     .container {
         margin-top: 70px;
 
-        .leftimg {
-            img {
-                width: 614px;
-                height: 408px;
-                object-fit: contain;
-            }
-        }
-
         .rightform {
             .form-inside {
                 h1 {
@@ -615,20 +614,6 @@ footer {
                 }
             }
         }
-
-        .relatedproducts-main {
-            h1 {
-                font-family: $font-lato;
-                font-weight: 700;
-                font-size: 24px;
-                color: #1F1E1E;
-                text-align: center
-            }
-
-            .related-section {
-                @include card;
-            }
-        }
     }
 }
 
@@ -638,21 +623,6 @@ footer {
 
         .container {
             margin-top: 50px;
-
-            .leftimg {
-                img {
-                    width: 100%;
-                    height: auto;
-                }
-            }
-
-            .relatedproducts-main {
-                .related-section {
-                    margin-top: 45px;
-                    @include nav;
-                }
-            }
-
         }
     }
 }

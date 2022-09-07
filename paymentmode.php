@@ -15,7 +15,7 @@ include('./include/header.php')
         <div class="paymentmode-main">
           <div class="d-flex justify-content-between">
             <div class="icon-image d-flex align-items-center">
-              <img src="./assets/images/paypal.png" alt="">
+              <img src="./assets/images/Newlands Clothings/paypal.png" alt="">
               <p class="icon-image-content">Paypal</p>
             </div>
             <div class="icon-content d-flex align-items-center">
@@ -27,7 +27,7 @@ include('./include/header.php')
         <div class="paymentmode-main">
           <div class="d-flex justify-content-between">
             <div class="icon-image d-flex align-items-center">
-              <img src="./assets/images/credit-card.png" alt="">
+              <img src="./assets/images/Newlands Clothings/credit-card.png" alt="">
               <p class="icon-image-content">Credit Card</p>
             </div>
             <div class="icon-content d-flex align-items-center">
@@ -39,7 +39,7 @@ include('./include/header.php')
         <div class="paymentmode-main">
           <div class="d-flex justify-content-between">
             <div class="icon-image d-flex align-items-center">
-              <img src="./assets/images/debit.png" alt="">
+              <img src="./assets/images/Newlands Clothings/debit.png" alt="">
               <p class="icon-image-content">Debit Card</p>
             </div>
             <div class="icon-content d-flex align-items-center">
@@ -51,7 +51,7 @@ include('./include/header.php')
         <div class="paymentmode-main">
           <div class="d-flex justify-content-between">
             <div class="icon-image d-flex align-items-center">
-              <img src="./assets/images/cash-app.png" alt="">
+              <img src="./assets/images/Newlands Clothings/cash-app.png" alt="">
               <p class="icon-image-content">Cash App</p>
             </div>
             <div class="icon-content d-flex align-items-center">
@@ -65,7 +65,7 @@ include('./include/header.php')
         <div class="paymentmode-main">
           <div class="d-flex justify-content-between">
             <div class="icon-image d-flex align-items-center">
-              <img src="./assets/images/Zelle-Symbol.png" alt="">
+              <img src="./assets/images/Newlands Clothings/Zelle-Symbol.png" alt="">
               <p class="icon-image-content">Zelle</p>
             </div>
             <div class="icon-content d-flex align-items-center">
@@ -79,7 +79,7 @@ include('./include/header.php')
         <div class="paymentmode-main">
           <div class="d-flex justify-content-between">
             <div class="icon-image d-flex align-items-center">
-              <img src="./assets/images/western-union.png" alt="">
+              <img src="./assets/images/Newlands Clothings/western-union.png" alt="">
               <p class="icon-image-content">Western Union</p>
             </div>
             <div class="icon-content d-flex align-items-center">
@@ -92,7 +92,7 @@ include('./include/header.php')
         <div class="paymentmode-main">
           <div class="d-flex justify-content-between">
             <div class="icon-image d-flex align-items-center">
-              <img src="./assets/images/Bitcoin..png" alt="">
+              <img src="./assets/images/Newlands Clothings/Bitcoin..png" alt="">
               <p class="icon-image-content">Bitcoin</p>
             </div>
             <div class="icon-content d-flex align-items-center">
@@ -105,7 +105,7 @@ include('./include/header.php')
         <div class="paymentmode-main">
           <div class="d-flex justify-content-between">
             <div class="icon-image d-flex align-items-center">
-              <img src="./assets/images/western-union.png" alt="">
+              <img src="./assets/images/Newlands Clothings/wire-transfer.png" alt="">
               <p class="icon-image-content">Wiretransfer</p>
             </div>
             <div class="icon-content d-flex align-items-center">
@@ -118,7 +118,7 @@ include('./include/header.php')
         <div class="paymentmode-main">
           <div class="d-flex justify-content-between">
             <div class="icon-image d-flex align-items-center">
-              <img src="./assets/images/MoneyGram.png" alt="">
+              <img src="./assets/images/Newlands Clothings/MoneyGram.png" alt="">
               <p class="icon-image-content">MoneyGram</p>
             </div>
             <div class="icon-content d-flex align-items-center">
