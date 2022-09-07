@@ -20,24 +20,35 @@ include('./include/header.php')
     <div class="products_section">
         <div class="section-heading">Bear & Soft Toys</div>
         <div class="container-fluid">
-            <div class="row owl-carousel">
-                <div class="col-12">
-                    <div class="product-card">
-                        <img src="./assets/images/minion-toy-vbr.png" alt="product_image">
-                        <div class="content">
-                            <div class="product-heading">
-                                Minions Small
-                            </div>
-                            <div class="brand">
-                                KawaiToys
-                            </div>
-                            <div class="product-price">
-                                $33.42
-                            </div>
-                            <button>Buy Now</button>
-                        </div>
-                    </div>
-                </div>
+            <div class="row owl-carousel home-carousel-0">
+            </div>
+        </div>
+    </div>
+    <div class="products_section">
+        <div class="section-heading">Bear & Soft Toys</div>
+        <div class="container-fluid">
+            <div class="row owl-carousel home-carousel-1">
+            </div>
+        </div>
+    </div>
+    <div class="products_section">
+        <div class="section-heading">Bear & Soft Toys</div>
+        <div class="container-fluid">
+            <div class="row owl-carousel home-carousel-2">
+            </div>
+        </div>
+    </div>
+    <div class="products_section">
+        <div class="section-heading">Bear & Soft Toys</div>
+        <div class="container-fluid">
+            <div class="row owl-carousel home-carousel-3">
+            </div>
+        </div>
+    </div>
+    <div class="products_section">
+        <div class="section-heading">Bear & Soft Toys</div>
+        <div class="container-fluid">
+            <div class="row owl-carousel home-carousel-4">
             </div>
         </div>
     </div>
