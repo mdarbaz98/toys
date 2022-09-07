@@ -28,44 +28,68 @@ nav.bg-light {
         font-weight: 700;
         font-size: 36px;
         font-family: $font-domi;
+        img{
+            width: 90px;
+        }
     }
 }
 
 // home page scss
 .home__page {
-    background: #FFF9F3;
-
     .banner {
-        width: 100%;
-        height: 100vh;
-        background: url("../assets/images/4680620.jpg") no-repeat;
-        background-size: cover;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
 
-        .banner_inner {
+        img {
+            width: 100%;
+            height: 721px;
+            object-fit: cover;
+        }
+
+        .content {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            padding-top: 196px;
 
-            h2 {
-                font-family: $font-robo;
-                font-size: 46px;
-                font-weight: 500;
+
+            h1 {
+                font-family: $font-pop;
+                font-size: 36px;
+                font-weight: 700;
                 line-height: 54px;
                 letter-spacing: 0em;
-                text-align: center;
-                padding-bottom: 64px;
+                text-align: left;
+                margin-bottom: 60px;
+                color: #233570;
             }
 
-            button {
-                width: 198px;
-                height: 63px;
-                font-size: 20px;
-                color: #fff;
-                background: #6200ea;
-                border-radius: 12px;
-                border: none;
+            .buttons {
+                .btn{
+                    width: 124px;
+                }
+                .first-btn {
+                    background: #233570;
+                    border-radius: 12px;
+                    color: #fff;
+                }
+
+                .sec-btn {
+                    border: 2px solid #233570;
+                    border-radius: 12px;
+                }
+            }
+            a{
+                position: relative;
+                color: #233570;
+                margin-top: 90px;
+                i{
+                    position: absolute;
+                    bottom: -20px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    transform: rotate(90deg);
+                }
             }
         }
     }
@@ -108,8 +132,7 @@ footer {
         top: 23%;
         left: 32%;
 
-        .footer-heading
-        {
+        .footer-heading {
             img {
                 width: 75px;
                 object-fit: contain;
@@ -127,8 +150,7 @@ footer {
             }
         }
 
-        .quick-links 
-        {
+        .quick-links {
             padding-left: 0px;
             display: flex;
             gap: 30px;
@@ -388,19 +410,27 @@ footer {
 
     .home__page {
         .banner {
-            .banner_inner {
-                h2 {
-                    font-size: 30px;
+            display: block;
+            img{
+                min-height: 471px;
+                
+            }
+            .content{
+                h1{
+                    font-size: 22px;
+                    text-align: center;
+                    line-height: 33px;
+                    margin-top: 20px;
+                    margin-bottom: 40px;
                 }
-
-                button {
-                    width: 146px;
-                    height: 48px;
+                a{
+                    margin-top: 40px;
                 }
             }
         }
 
         .products_section {
+            margin-top: 50px;
             padding: 20px 0px;
         }
     }

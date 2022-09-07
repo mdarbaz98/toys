@@ -3,9 +3,18 @@ include('./include/header.php')
 ?>
 <section class="home__page pb-lg-5">
     <div class="banner">
-        <div class="banner_inner">
-            <h2>The Coolest Toy Store On The Planet</h2>
-            <button>Shop Now</button>
+        <img src="./assets/images/Newlands Clothings/banner-image.jpg" alt="banner-image">
+        <div class="content">
+            <h1>Bringing You the Elements of Style </h1>
+            <div class="buttons">
+                <div class="btn first-btn">
+                    Mens
+                </div>
+                <div class="btn sec-btn">
+                    Womens
+                </div>
+            </div>
+            <a href="">Explore All<i class="fa-solid fa-arrow-right"></i></a>
         </div>
     </div>
     <div class="products_section">
@@ -22,12 +31,10 @@ include('./include/header.php')
                             <div class="brand">
                                 KawaiToys
                             </div>
-                            <div class="d-flex gap-5 align-items-center">
                             <div class="product-price">
                                 $33.42
                             </div>
                             <button>Buy Now</button>
-                            </div>
                         </div>
                     </div>
                 </div>
