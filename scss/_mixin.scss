@@ -3,7 +3,10 @@
 @mixin card {
     .product-card {
         display: flex;
-        padding: 15px 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
         margin: 20px;
         background: #FFFFFF;
         border: 1px solid rgba(0, 0, 0, 0.1);
@@ -11,17 +14,17 @@
         border-radius: 18px;
     
         img {
-            width: 200px;
-            height: 175px;
+            height: 235px;
             object-fit: contain;
         }
     
         .content {
             display: flex;
+            gap: 15px;
             flex-direction: column;
             justify-content: center;
-            align-items: start;
-            gap: 10px;
+            // align-items: start;
+            gap: 20px;
     
             .product-heading {
                 font-family: 'Roboto Serif';
@@ -30,6 +33,7 @@
                 font-size: 20px;
                 line-height: 23px;
                 color: #313131;
+                text-align: center;
             }
     
             .brand {

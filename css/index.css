@@ -67,7 +67,10 @@ nav.bg-light a {
 }
 .home__page .products_section .product-card {
   display: flex;
-  padding: 15px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
   margin: 20px;
   background: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -75,16 +78,15 @@ nav.bg-light a {
   border-radius: 18px;
 }
 .home__page .products_section .product-card img {
-  width: 200px;
-  height: 175px;
+  height: 235px;
   object-fit: contain;
 }
 .home__page .products_section .product-card .content {
   display: flex;
+  gap: 15px;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
-  gap: 10px;
+  gap: 20px;
 }
 .home__page .products_section .product-card .content .product-heading {
   font-family: "Roboto Serif";
@@ -93,6 +95,7 @@ nav.bg-light a {
   font-size: 20px;
   line-height: 23px;
   color: #313131;
+  text-align: center;
 }
 .home__page .products_section .product-card .content .brand {
   font-family: "Lato";

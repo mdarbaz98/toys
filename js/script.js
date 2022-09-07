@@ -11,7 +11,7 @@ $('.owl-carousel').owlCarousel({
       items: 1.7,
     },
     1000: {
-      items: 3,
+      items: 4,
       touchDrag: false,
       mouseDrag  : false,
     },
@@ -24,3 +24,19 @@ const menuitem=document.querySelector(".menu-items")
 togglebtn.addEventListener("click",function(){
   $(".menu-items").toggleClass("show-links")
 })
+
+
+ fetch('https://jsonplaceholder.typicode.com/posts').then((res) => res.json()).then((data) => 
+ {
+  var result;
+  data.map((item) => {
+    result += `<div class="card" onclick="card(this)">
+    <p>${item.userId}</p>
+    <strong>${item.id}</strong>
+    <h6>${item.title}</h6>
+    <article>${item.body}</article>
+  </div>`
+  })
+  $('.newProduct').html(result);
+ }
+ ).catch((err) => console.log(err));
