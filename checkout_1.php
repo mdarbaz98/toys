@@ -12,11 +12,11 @@ include('./include/header.php');
                         <p>Additional 5% Off Applied</p>
                     </div>
                     <div class="row">
-                        <div class="col-lg-8 col-12">
+                        <div class="col-lg-8 col-12 order-1 ">
                             <div class="qr_and_number ">
                                 <div class="div_1">
                                     <p>Scan This QR Code</p>
-                                    <img src="" alt="">
+                                    <img src="./assets/images/Newlands Clothings/Qr-Code.png" alt="qr-code">
                                     <button class="btn">Download</button>
                                 </div>
                                 <div class="div_2">OR</div>
@@ -30,7 +30,7 @@ include('./include/header.php');
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 ">
+                        <div class="col-lg-4 my-3 my-lg-0 order-3 order-lg-2">
                             <div class="tmr">
                                 <p>Your Payment Session WIll Expire On</p>
                                 <div class="outerRing">
@@ -46,7 +46,7 @@ include('./include/header.php');
                                 </div>
                             </div>
                         </div>
-                        <div class="cta_colmn col-12">
+                        <div class="cta_colmn text-center text-lg-start my-3 my-lg-0 col-12 order-2 order-lg-3">
                             <p>Kindly Add Note as a Newlands Clothings in your Cash App </p>
                             <button class="btn mb-3">I Have Made My Payment</button></br>
                             <button class="btn">I Have Made My Payment</button>
@@ -55,14 +55,16 @@ include('./include/header.php');
                 </div>
             </div>
             <div class="col-12 col-lg-4">
-                <div class="card">
-                    <div class="card-header">
+                <div class="card mb-3">
+                    <div class="card-header text-center">
                         Product Details
                     </div>
                     <div class="card-body">
-                        <ul class="p-2">
+                        <ul class="">
                             <li class="d-flex justify-content-between">
-                                <div class="prod_name d-flex flex-column gap-2">
+                                <div class="number">
+                                    1
+                                </div>                                <div class="prod_name d-flex flex-column gap-2">
                                     <p class="mb-0">Soma(Carisoprodol)</p>
                                     <div class="d-flex justify-content-between">
                                         <small>30mg</small>
@@ -76,6 +78,9 @@ include('./include/header.php');
                                 </div>
                             </li>
                             <li class="d-flex justify-content-between">
+                            <div class="number">
+                                    2
+                                </div>  
                                 <div class="prod_name d-flex flex-column gap-2">
                                     <p class="mb-0">Soma(Carisoprodol)</p>
                                     <div class="d-flex justify-content-between">
@@ -91,9 +96,34 @@ include('./include/header.php');
                             </li>
                         </ul>
                     </div>
-                    <div class="card-footer d-flex justify-content-between">
-                        <p>Total</p>
+                    <div class="card-footer px-5 d-flex justify-content-between align-items-center">
+                        <p class="mb-0">Total</p>
                         <strong>$371.9</strong>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-header text-center">
+                        User Details
+                    </div>
+                    <div class="card-body">
+                        <div class="user-name-details d-flex justify-content-between mb-4">
+                            <div>
+                                <p class="fp ">Name</p>
+                                <p class="">Madelyn Mango</p>
+                            </div>
+                            <div>
+                                <p class="fp ">Mobile Number</p>
+                                <p class="">+1 3245 6675</p>
+                            </div>
+                        </div>
+                        <div class="user-name-address mb-4">
+                        <p class="fp ">Communication Address</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta quis culpa quo molestiae hic, laudantium molestias neque est nobis? Repellat.</p>
+                        </div>
+                        <div class="user-name-email">
+                            <p class="fp">Email</p>
+                            <p>example@mail.com</p>
+                        </div>
                     </div>
                 </div>
             </div>
