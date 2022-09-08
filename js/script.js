@@ -50,7 +50,7 @@ fetch("js/data.json")
                                 KawaiToys
                             </div>
                             <div class="product-price">
-                                ${item.price}
+                                $${item.price}
                             </div>
                             <button>Buy Now</button>
                         </div>
