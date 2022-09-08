@@ -61,3 +61,17 @@ fetch("js/data.json")
     owlFunction();
   })
   .catch((err) => console.log(err));
+
+  const allbtn=document.querySelector(".size-btns")
+  const btns=document.querySelectorAll(".sizebtn");
+
+
+  allbtn.addEventListener("click",function(e){
+    const id=e.target.dataset.id;
+    if(id){
+      btns.forEach(function(btn){
+        btn.classList.remove("active")
+        e.target.classList.add("active")
+      })
+    }
+  })
