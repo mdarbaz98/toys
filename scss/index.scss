@@ -23,11 +23,21 @@ $font-lato: "Lato", sans-serif;
 nav.bg-light {
     background-color: transparent !important;
 
-    a {
-        color: #6200ea !important;
-        font-weight: 700;
-        font-size: 36px;
-        font-family: $font-domi;
+    a.navbar-brand {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-family: $font-pop;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 21px;
+            letter-spacing: 0em;
+            color: #233570;
+            margin-bottom: 0px;
+        }
 
         img {
             width: 60px;
@@ -37,14 +47,20 @@ nav.bg-light {
     form {
         overflow: hidden;
         position: relative;
-        width: 142px;
+        width: 162px;
         height: 33px;
+
         input {
             width: 100%;
             height: 100%;
+            padding: 0px 28px 0px 10px;
             background: #FFFFFF;
             border: 1px solid rgba(0, 0, 0, 0.2);
             border-radius: 16px;
+
+            &:focus {
+                outline: none;
+            }
         }
 
         button {
@@ -57,7 +73,8 @@ nav.bg-light {
             background-color: transparent;
         }
     }
-    .cart-btn{
+
+    .cart-btn {
         height: 33px;
         width: 33px;
         background-color: transparent;
@@ -392,53 +409,33 @@ footer {
 
 @media (max-width: 767px) {
     nav.bg-light {
-        button {
+        a.navbar-brand {
             position: absolute;
-            top: 11px;
-            left: 10px;
-            width: 30px;
-            height: 30px;
-            // background: #6200EA;
-            border: none;
-            border-radius: 20px;
-            color: #fff;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 0px;
         }
 
-        a {
-            font-size: 30px;
-        }
+        .right-sdie-header {
+            margin-left: auto;
 
-        .menu-items {
-            position: absolute;
-            left: 0px;
-            top: 68px;
-            width: 100%;
-            height: 0;
-            overflow: hidden;
-            padding: 20px 20px 0px 20px;
-            transition: all 0.3s linear;
+            form {
+                width: 35px;
 
-            li {
-                list-style: none;
-                margin-bottom: 20px;
-
-                a {
-                    text-decoration: none;
-                    color: #000;
-                    font-family: $font-lato;
-                    font-size: 16px;
-                    font-weight: 600;
-                    line-height: 19px;
-                    letter-spacing: 0em;
-                    text-align: left;
-
+                input {
+                    padding: unset;
+                    border-radius: 50%;
                 }
             }
-        }
 
-        .show-links {
-            background-color: #fff;
-            height: 12rem;
+            form.mobile {
+                width: unset;
+
+                input {
+                    border-radius: 16px;
+                    padding: 0px 28px 0px 10px;
+                }
+            }
         }
     }
 
@@ -724,9 +721,9 @@ footer {
 
 // product page
 
-.productpage-main 
-{
+.productpage-main {
     margin-top: 120px;
+
     .product-img {
         img {
             width: 100%;
@@ -813,7 +810,7 @@ footer {
                     font-size: 13px;
                     display: flex;
                     justify-content: center;
-                    color:#233570;
+                    color: #233570;
                 }
             }
 
@@ -826,7 +823,8 @@ footer {
             }
         }
     }
-    .related{
+
+    .related {
         .tshirt-heading {
             h2 {
                 font-family: $font-pop;
@@ -836,8 +834,347 @@ footer {
                 margin-top: 40px;
             }
         }
+
         @include card
     }
 }
 
 // product page
+
+//checkout page 1
+.checkout_1 {
+    padding-top: 120px;
+
+    .qr_section {
+        .top-heading {
+            margin-bottom: 15px;
+
+            img {
+                height: 27px;
+                width: 27px;
+            }
+
+            strong {
+                font-family: $font-lora;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 26px;
+                letter-spacing: 0em;
+
+            }
+
+            p {
+                font-family: $font-pop;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 0em;
+                margin-bottom: 0px;
+            }
+        }
+
+        .qr_and_number {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            font-size: $font-pop;
+            padding-top: 25px;
+
+            .div_1 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    Width: 122px;
+                    Height: 122px;
+                    object-fit: contain;
+                }
+
+                p {
+
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                }
+
+                button {
+
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                }
+            }
+
+            .div_2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: $font-pop;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 30px;
+                letter-spacing: 0em;
+            }
+
+            .div_3 {
+                display: flex;
+                flex-direction: column;
+                justify-items: center;
+                align-items: center;
+
+                .heading {
+                    font-family: $font-pop;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    margin-bottom: 40px;
+                }
+
+                a {
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    letter-spacing: 0em;
+                    color: #000;
+                }
+
+                button {
+                    font-family: $font-pop;
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 21px;
+                    letter-spacing: 0em;
+                }
+            }
+        }
+    }
+
+    .tmr {
+        // height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.08);
+        border-radius: 18px;
+        border: 1px solid rgba(0, 0, 0, 0.6);
+        padding: 20px;
+
+        p {
+            font-family: $font-pop;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+
+        .timer-ring {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: #FFFFFF;
+            border-radius: 18px;
+            height: 100%;
+            padding: 18px 15px 9px 15px;
+
+            .time-text {
+                p {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+        }
+
+        .outerRing {
+            display: grid;
+            place-items: center;
+            width: 166px;
+            height: 166px;
+            position: relative;
+            border-radius: 50%;
+            background-color: #fff;
+        }
+
+        .outerRing2 {
+            display: grid;
+            place-items: center;
+            position: absolute;
+            width: 166px;
+            height: 166px;
+            z-index: 5;
+            border-radius: 50%;
+
+            &:after {
+                content: "";
+                position: absolute;
+                top: -4px;
+                width: 10px;
+                height: 10px;
+                background: #021b79;
+                border-radius: 12px;
+            }
+        }
+
+        .timer {
+            width: 138px;
+            height: 138px;
+            border-radius: 50%;
+            background: linear-gradient(130.65deg, #0575E6 13.88%, #021B79 86.46%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: 11px solid #fff;
+        }
+
+        #time {
+            width: 300px;
+            text-align: center;
+
+            span {
+                display: inline;
+                color: #ffffff;
+                font-size: 19px;
+                letter-spacing: 0.1em;
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            }
+        }
+
+        #stsp {
+            color: #ffffff;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 1rem;
+            line-height: 1.25rem;
+            text-align: center;
+            letter-spacing: 0.6em;
+            margin: 1rem 0;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        #setting {
+            cursor: pointer;
+            margin-top: 1rem;
+            width: 25px;
+            height: 25px;
+            color: #585858;
+            box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+        }
+
+        .time-text {
+            margin-bottom: 12px;
+        }
+
+        .payment-note {
+            p {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                color: #0c3072;
+                margin-top: 29px;
+            }
+        }
+
+    }
+
+    .cta_colmn {
+        p {
+            font-family: $font-pop;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: 0em;
+            color: #0C3072;
+        }
+
+        button {
+            color: #000;
+            border: 1px solid #0C3072;
+            border-radius: 30px;
+
+            &:nth-child(2) {
+                color: #ffff;
+                background: #0C3072;
+                border-radius: 30px;
+            }
+        }
+    }
+
+    .card {
+        border-radius: 18px;
+        .card-header {
+            font-family: $font-pop;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 27px;
+            letter-spacing: 0em;
+            background-color: #0C3072;
+            color: #fff;
+            border-radius: 0px 18px 0px 18px;
+        }
+
+        .card-body {
+            ul {
+                li {
+                    .prod_name {
+                        p {
+                            font-family: $font-pop;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 24px;
+                            letter-spacing: 0em;
+                        }
+
+                        small {
+                            font-family: $font-pop;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 24px;
+                            letter-spacing: 0em;
+                            color: #494949;
+                        }
+
+                        span {
+                            font-family: $font-pop;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 24px;
+                            letter-spacing: 0em;
+                        }
+                    }
+
+                    .prod_price {
+                        p {
+                            font-family: $font-pop;
+                            font-size: 20px;
+                            font-weight: 600;
+                            line-height: 30px;
+                            letter-spacing: 0em;
+                            color: #1B8F08;
+                        }
+
+                        small {
+                            font-family: Poppins;
+                            font-size: 14px;
+                            font-weight: 600;
+                            line-height: 21px;
+                            letter-spacing: 0em;
+                            color: #9C0808;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//checkout page 1
