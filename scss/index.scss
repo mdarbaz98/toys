@@ -28,7 +28,8 @@ nav.bg-light {
         font-weight: 700;
         font-size: 36px;
         font-family: $font-domi;
-        img{
+
+        img {
             width: 90px;
         }
     }
@@ -65,9 +66,10 @@ nav.bg-light {
             }
 
             .buttons {
-                .btn{
+                .btn {
                     width: 124px;
                 }
+
                 .first-btn {
                     background: #233570;
                     border-radius: 12px;
@@ -79,11 +81,13 @@ nav.bg-light {
                     border-radius: 12px;
                 }
             }
-            a{
+
+            a {
                 position: relative;
                 color: #233570;
                 margin-top: 90px;
-                i{
+
+                i {
                     position: absolute;
                     bottom: -20px;
                     left: 50%;
@@ -411,19 +415,22 @@ footer {
     .home__page {
         .banner {
             display: block;
-            img{
+
+            img {
                 min-height: 471px;
-                
+
             }
-            .content{
-                h1{
+
+            .content {
+                h1 {
                     font-size: 22px;
                     text-align: center;
                     line-height: 33px;
                     margin-top: 20px;
                     margin-bottom: 40px;
                 }
-                a{
+
+                a {
                     margin-top: 40px;
                 }
             }
@@ -662,6 +669,7 @@ footer {
 //mens category
 .mens-category {
     margin: 80px 0px 50px 0px;
+
     h1 {
         font-family: $font-pop;
         text-align: center;
@@ -683,3 +691,123 @@ footer {
 }
 
 //mens category
+
+// product page
+
+.productpage-main 
+{
+    margin-top: 120px;
+    .product-img {
+        img {
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .product-content {
+        h2 {
+            font-family: $font-robo;
+            font-weight: 500;
+            font-size: 36px;
+            color: #313131;
+        }
+
+        span {
+            font-family: $font-robo;
+            font-weight: 500;
+            font-size: 20px;
+            text-align: center;
+            color: #313131;
+
+        }
+
+        .size-btns {
+            button {
+                background-color: #233570;
+                border-radius: 8px;
+                width: 50px;
+                height: 50px;
+                color: #fff;
+                border: none;
+                margin: 10px 20px 0px 0px;
+                font-family: $font-robo;
+                font-weight: 500;
+                font-size: 20px;
+            }
+        }
+
+        p {
+
+            font-family: $font-pop;
+            font-weight: 700;
+            font-size: 30px;
+            color: #233570;
+            margin: 20px 0px 5px 0px;
+        }
+
+        .buynow-cart {
+            .buynow {
+                background-color: #233570;
+                border-radius: 12px;
+                padding: 7px 24px 7px 24px;
+                color: #fff;
+                border: none;
+                margin: 10px 10px 10px 0px;
+                font-family: $font-pop;
+                font-weight: 600;
+                font-size: 20px;
+            }
+
+            .cart {
+                background: #FFFFFF;
+                border: 1px solid #233570;
+                border-radius: 12px;
+                font-family: $font-pop;
+                font-weight: 600;
+                font-size: 20px;
+                color: #233570;
+                padding: 4px 12px 4px 12px;
+            }
+        }
+
+        .inc-dec {
+            button {
+                width: 22px;
+                height: 22px;
+                background: #FFFFFF;
+                border: 1px solid #233570;
+                border-radius: 50%;
+
+
+                i {
+                    font-size: 13px;
+                    display: flex;
+                    justify-content: center;
+                    color:#233570;
+                }
+            }
+
+            p {
+                margin: -8px 15px 0px 15px;
+                font-family: $font-robo;
+                font-weight: 500;
+                font-size: 24px;
+                color: #323232;
+            }
+        }
+    }
+    .related{
+        .tshirt-heading {
+            h2 {
+                font-family: $font-pop;
+                font-weight: 600;
+                font-size: 30px;
+                text-align: center;
+                margin-top: 40px;
+            }
+        }
+        @include card
+    }
+}
+
+// product page

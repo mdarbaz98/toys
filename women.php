@@ -3,7 +3,7 @@ include('./include/header.php')
 ?> 
 <section class="mens-category">
   <div class="mens-heading">
-    <h1>Mens Collection</h1>
+    <h1>Womens Collection</h1>
   </div>
   <!-- thsirt -->
   <div class="tshirt-heading">
