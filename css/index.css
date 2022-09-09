@@ -3,10 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: all 0.2s linear;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
 }
 
 html {
@@ -456,7 +452,6 @@ footer .middle-section p {
     border-radius: 16px;
     padding: 0px 28px 0px 10px;
   }
-
   .home__page .banner {
     display: block;
   }
@@ -477,27 +472,30 @@ footer .middle-section p {
     margin-top: 50px;
     padding: 20px 0px;
   }
-
   footer .middle-section .quick-links {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     text-align: center;
   }
-
   .about__page h1 {
     font-size: 24px;
   }
   .about__page .desc {
     width: unset;
   }
-
   .contact__page h1 {
     font-size: 24px;
   }
-
   .checkout_1 .qr_and_number {
     display: flex !important;
     justify-content: space-between;
+  }
+  .checkout_1 .call_payment_section .contact {
+    flex-direction: column;
+    align-items: center;
+  }
+  .checkout_1 .call_payment_section p {
+    margin-top: 20px !important;
   }
 }
 .paymentmode-section .container {
@@ -924,6 +922,7 @@ footer .middle-section p {
 .checkout_1 .qr_section .top-heading img {
   height: 27px;
   width: 27px;
+  object-fit: contain;
 }
 .checkout_1 .qr_section .top-heading strong {
   font-family: "Lora", serif;
@@ -1008,6 +1007,97 @@ footer .middle-section p {
   line-height: 21px;
   letter-spacing: 0em;
 }
+.checkout_1 .qr_section .wire_transfer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 25px;
+  gap: 35px;
+}
+.checkout_1 .qr_section .wire_transfer .num p {
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+.checkout_1 .qr_section .wire_transfer .num span {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+.checkout_1 .call_payment_section .top-heading img {
+  width: 40px;
+}
+.checkout_1 .call_payment_section .top-heading strong {
+  font-family: "Lora", serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+}
+.checkout_1 .call_payment_section p {
+  margin: 40px 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+.checkout_1 .call_payment_section .contact .product_content4 {
+  position: relative;
+  background-color: #DDDCDC;
+  width: 235px;
+  height: 50px;
+  border: white;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.checkout_1 .call_payment_section .contact .product_content4 .slider-btn {
+  transition: width 0.3s, border-radius 0.3s, height 0.3s;
+  position: absolute;
+  background-color: #fff;
+  color: #11ab36;
+  left: 3px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.checkout_1 .call_payment_section .contact .slider-btn.unlocked {
+  transition: all 0.3s;
+  width: inherit;
+  left: 0 !important;
+  height: inherit;
+  border-radius: inherit;
+}
+.checkout_1 .call_payment_section .contact .slide-text {
+  color: rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 80px;
+}
+.checkout_1 .call_payment_section .contact button.msg-btn {
+  width: fit-content;
+  padding: 6px 20px;
+  background: #FFFFFF;
+  border: 1.5px solid #0C3072;
+  border-radius: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #0C3072;
+}
 .checkout_1 .tmr {
   display: flex;
   flex-direction: column;
@@ -1070,8 +1160,8 @@ footer .middle-section p {
   border-radius: 12px;
 }
 .checkout_1 .tmr .timer {
-  width: 138px;
-  height: 138px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   background: linear-gradient(130.65deg, #0575e6 13.88%, #021b79 86.46%);
   display: flex;
