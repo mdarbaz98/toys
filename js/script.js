@@ -168,3 +168,19 @@ if (1 == 1) {
   // startStop.innerHTML = "START";
   startStopProgress();
 }
+
+
+
+const allbtn=document.querySelector(".size-btns")
+const btns=document.querySelectorAll(".sizebtn");
+
+
+allbtn.addEventListener("click",function(e){
+  const id=e.target.dataset.id;
+  if(id){
+    btns.forEach(function(btn){
+      btn.classList.remove("active")
+      e.target.classList.add("active")
+    })
+  }
+})
