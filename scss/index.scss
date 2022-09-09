@@ -496,13 +496,14 @@ footer {
       font-size: 24px;
     }
   }
-      //checkout 
-      .checkout_1{
-        .qr_and_number{
-            display: flex !important;
-            justify-content: space-between;
-        }
+
+  //checkout 
+  .checkout_1 {
+    .qr_and_number {
+      display: flex !important;
+      justify-content: space-between;
     }
+  }
 }
 
 // paymentmode
@@ -727,7 +728,7 @@ footer {
 // product page
 .productpage {
   .productpage-main {
-    margin-top: 25px;
+    margin: 110px 0px 50px 0px;
 
     .product-img {
       img {
@@ -767,6 +768,7 @@ footer {
           font-weight: 500;
           font-size: 20px;
         }
+
         button.active {
           background-color: #233570;
           color: #fff;
@@ -904,7 +906,7 @@ footer {
 
   @media (min-width: 320px) and (max-width: 767px) {
     .productpage-main {
-      margin-top: 0px;
+      margin-top: 60px;
 
       .product-content {
         h2 {
@@ -1210,6 +1212,7 @@ footer {
     border-radius: 18px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.08);
+
     .card-header {
       font-family: $font-pop;
       font-size: 18px;
@@ -1227,9 +1230,10 @@ footer {
         li {
           margin-bottom: 30px;
           position: relative;
+
           .number {
             position: absolute;
-            left:-35px;
+            left: -35px;
             top: 0px;
             width: 25px;
             height: 25px;
@@ -1242,6 +1246,7 @@ footer {
             -ms-border-radius: 50%;
             -o-border-radius: 50%;
           }
+
           .prod_name {
             p {
               font-family: $font-pop;
@@ -1290,25 +1295,30 @@ footer {
           }
         }
       }
+
       .user-name-details,
       .user-name-address,
       .user-name-email {
         font-family: $font-pop;
         font-size: 16px;
         line-height: 24px;
+
         p {
           margin-bottom: 0px;
         }
+
         .fp {
           margin-bottom: 0px;
           font-weight: 600;
         }
       }
     }
+
     .card-footer {
       background-color: #fff;
       border-bottom-left-radius: 18px;
       border-bottom-right-radius: 18px;
+
       p {
         font-family: $font-pop;
         font-size: 18px;
@@ -1316,6 +1326,7 @@ footer {
         line-height: 27px;
         letter-spacing: 0em;
       }
+
       strong {
         font-family: $font-pop;
         font-size: 20px;
@@ -1329,3 +1340,113 @@ footer {
 }
 
 //checkout page 1
+
+
+// cart
+.cartpage {
+  .cartpage-main {
+    margin-top: 80px;
+
+    h1 {
+      font-family: $font-robo;
+      font-weight: 600;
+      font-size: 26px;
+      margin-bottom: 50px;
+      text-align: center;
+      color: #313131;
+    }
+
+    .container {
+      max-width: 1000px;
+
+      .cart-cont {
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.4);
+        box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
+        border-radius: 18px;
+        padding: 50px 50px 15px 50px;
+
+        .cart-img {
+          img {
+            width: 100%;
+            object-fit: contain;
+          }
+        }
+
+        .cart-content {
+          h2 {
+            font-family: $font-robo;
+            font-weight: 500;
+            font-size: 36px;
+            color: #313131;
+          }
+
+          span {
+            font-family: $font-robo;
+            font-weight: 500;
+            font-size: 20px;
+            color: #313131;
+            margin: 10px 0px;
+          }
+
+          .quantity {
+            font-family: $font-robo;
+            font-weight: 500;
+            font-size: 20px;
+            color: #313131;
+            margin: 15px 0px;
+          }
+
+          .price {
+            font-family: $font-pop;
+            font-weight: 700;
+            font-size: 30px;
+            color: #233570;
+
+          }
+
+          .buynow-cart {
+            .buynow {
+              background-color: #233570;
+              border-radius: 12px;
+              padding: 7px 24px 7px 24px;
+              color: #fff;
+              border: none;
+              margin: 10px 10px 10px 0px;
+              font-family: $font-pop;
+              font-weight: 600;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    .cartpage-main {
+      margin-top: 80px;
+
+      h1 {
+        padding-top: 20px;
+        margin: 0px 0px 30px 0px;
+      }
+
+      .container {
+
+        .cart-cont {
+          padding: 20px 20px 20px 20px;
+
+          .cart-content {
+            text-align: center;
+            h2 {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// cart
