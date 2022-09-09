@@ -23,14 +23,6 @@ function owlFunction() {
   });
 }
 
-const togglebtn=document.querySelector(".menu-btn");
-const menuitem=document.querySelector(".menu-items")
-
-
-// togglebtn.addEventListener("click", function () {
-//   $(".menu-items").toggleClass("show-links");
-// });
-
 fetch("js/data.json")
   .then((res) => res.json())
   .then((data) => {
