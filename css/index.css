@@ -683,7 +683,7 @@ footer .middle-section p {
 }
 
 .productpage .productpage-main {
-  margin-top: 25px;
+  margin: 110px 0px 50px 0px;
 }
 .productpage .productpage-main .product-img img {
   width: 100%;
@@ -891,7 +891,7 @@ footer .middle-section p {
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .productpage .productpage-main {
-    margin-top: 0px;
+    margin-top: 60px;
   }
   .productpage .productpage-main .product-content h2 {
     font-size: 22px;
@@ -1339,4 +1339,85 @@ footer .middle-section p {
   line-height: 30px;
   letter-spacing: 0em;
   color: #0c3072;
+}
+
+.cartpage .cartpage-main {
+  margin-top: 80px;
+}
+.cartpage .cartpage-main h1 {
+  font-family: "Roboto Serif", serif;
+  font-weight: 600;
+  font-size: 26px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #313131;
+}
+.cartpage .cartpage-main .container {
+  max-width: 1000px;
+}
+.cartpage .cartpage-main .container .cart-cont {
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 18px;
+  padding: 50px 50px 15px 50px;
+}
+.cartpage .cartpage-main .container .cart-cont .cart-img img {
+  width: 100%;
+  object-fit: contain;
+}
+.cartpage .cartpage-main .container .cart-cont .cart-content h2 {
+  font-family: "Roboto Serif", serif;
+  font-weight: 500;
+  font-size: 36px;
+  color: #313131;
+}
+.cartpage .cartpage-main .container .cart-cont .cart-content span {
+  font-family: "Roboto Serif", serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #313131;
+  margin: 10px 0px;
+}
+.cartpage .cartpage-main .container .cart-cont .cart-content .quantity {
+  font-family: "Roboto Serif", serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #313131;
+  margin: 15px 0px;
+}
+.cartpage .cartpage-main .container .cart-cont .cart-content .price {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #233570;
+}
+.cartpage .cartpage-main .container .cart-cont .cart-content .buynow-cart .buynow {
+  background-color: #233570;
+  border-radius: 12px;
+  padding: 7px 24px 7px 24px;
+  color: #fff;
+  border: none;
+  margin: 10px 10px 10px 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .cartpage .cartpage-main {
+    margin-top: 80px;
+  }
+  .cartpage .cartpage-main h1 {
+    padding-top: 20px;
+    margin: 0px 0px 30px 0px;
+  }
+  .cartpage .cartpage-main .container .cart-cont {
+    padding: 20px 20px 20px 20px;
+  }
+  .cartpage .cartpage-main .container .cart-cont .cart-content {
+    text-align: center;
+  }
+  .cartpage .cartpage-main .container .cart-cont .cart-content h2 {
+    font-size: 20px;
+  }
 }
