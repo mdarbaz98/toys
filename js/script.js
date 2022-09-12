@@ -287,18 +287,21 @@ allbtn.addEventListener("click",function(e){
 
 const counterbtn=document.querySelectorAll(".counterbtn")
 const value=document.getElementById("value");
-let count=0;
+let count=1;
 counterbtn.forEach(function(btn){
   btn.addEventListener("click",function(e){
     const styles=e.currentTarget.classList;
-    if(styles.contains("decrease")){
-      count--;
-    }
-    else if(styles.contains("increase")) {
+    if(styles.contains("increase")){
       count++;
+    }
+    else if(styles.contains("decrease")) {
+      if(count > 1)
+      {
+         count--;
+      }
     } 
     else {
-      count = 0;
+      count = 1;
     }
     value.textContent=count
   })
