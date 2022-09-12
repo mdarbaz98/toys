@@ -89,7 +89,7 @@ $(document.body).on('mousemove touchmove', function(event){
 });
 
 
-fetch("js/data.json")
+fetch("js/womensData.json")
   .then((res) => res.json())
   .then((data) => {
     var array = ["dress", "denim", "T-SHIRT", "SHOES", "SKIRTS", "SPORTS WEAR"];
@@ -114,6 +114,39 @@ fetch("js/data.json")
                         </div>
                     </div>`;
           $(`.home-carousel-${ind}`).html(result);
+        });
+    });
+    owlFunction();
+  })
+  .catch((err) => console.log(err));
+
+
+fetch("js/menData.json")
+  .then((res) => res.json())
+  .then((data) => {
+    console.log(data)
+    var array = ["dress", "denim", "T-SHIRT", "SHOES", "SKIRTS", "SPORTS WEAR"];
+    array.forEach((element, ind) => {
+      var result;
+      data
+        .filter((res) => res.category.toLowerCase() == element.toLowerCase())
+        .map((item) => {
+          result += ` <div class="product-card" onclick="getItem(this)">
+                        <img src="${item.image}" alt="product_image">
+                        <div class="content">
+                            <div class="product-heading">
+                                ${item.name}
+                            </div>
+                            <div class="brand">
+                                KawaiToys
+                            </div>
+                            <div class="product-price">
+                                $${item.price}
+                            </div>
+                            <button>Buy Now</button>
+                        </div>
+                    </div>`;
+          $(`.home-men-carousel-${ind}`).html(result);
         });
     });
     owlFunction();
