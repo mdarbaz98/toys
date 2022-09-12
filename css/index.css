@@ -64,6 +64,7 @@ nav.bg-light .cart-btn {
 }
 
 .home__page .banner {
+  font-family: "Poppins", sans-serif;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -79,7 +80,6 @@ nav.bg-light .cart-btn {
   align-items: center;
 }
 .home__page .banner .content h1 {
-  font-family: "Poppins", sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 54px;
@@ -116,7 +116,7 @@ nav.bg-light .cart-btn {
   padding: 50px 0px;
 }
 .home__page .products_section .section-heading {
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 29px;
@@ -281,13 +281,13 @@ footer .middle-section p {
 .privacy__page,
 .terms__page {
   padding-top: 100px;
+  font-family: "Poppins", sans-serif;
 }
 .privacy__page .accordion-button,
 .terms__page .accordion-button {
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.3);
   padding: 10px 15px;
-  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
   border-radius: 14px !important;
@@ -305,7 +305,6 @@ footer .middle-section p {
   padding-left: 10px;
   border-left: #1b3c74 solid 3px;
   list-style: none;
-  font-family: "Merriweather", serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
@@ -334,7 +333,6 @@ footer .middle-section p {
 .privacy__page h2,
 .terms__page h1,
 .terms__page h2 {
-  font-family: "Merriweather", serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 25px;
@@ -344,7 +342,6 @@ footer .middle-section p {
 }
 .privacy__page p,
 .terms__page p {
-  font-family: "Merriweather", serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 25px;
@@ -353,11 +350,11 @@ footer .middle-section p {
 }
 
 .about__page {
+  font-family: "Poppins", sans-serif;
   padding-left: 10px;
   padding-right: 10px;
 }
 .about__page h1 {
-  font-family: "Merriweather", serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 38px;
@@ -366,7 +363,6 @@ footer .middle-section p {
   margin: 30px;
 }
 .about__page .desc {
-  font-family: "Roboto Serif", serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 23px;
@@ -380,7 +376,6 @@ footer .middle-section p {
   object-fit: cover;
 }
 .about__page p {
-  font-family: "Lato", sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 32px;
@@ -389,11 +384,11 @@ footer .middle-section p {
 }
 
 .contact__page {
+  font-family: "Poppins", sans-serif;
   padding-left: 10px;
   padding-right: 10px;
 }
 .contact__page h1 {
-  font-family: "Merriweather", serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 30px;
@@ -403,7 +398,6 @@ footer .middle-section p {
   margin: 40px;
 }
 .contact__page p {
-  font-family: "Roboto Serif", serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 23px;
@@ -413,7 +407,6 @@ footer .middle-section p {
   margin: auto;
 }
 .contact__page a {
-  font-family: "Roboto Serif", serif;
   text-decoration: none;
   font-size: 20px;
   font-weight: 600;

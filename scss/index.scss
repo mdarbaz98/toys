@@ -89,6 +89,7 @@ nav.bg-light {
 // home page scss
 .home__page {
     .banner {
+        font-family: $font-pop;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
 
@@ -105,7 +106,6 @@ nav.bg-light {
             align-items: center;
 
             h1 {
-                font-family: $font-pop;
                 font-size: 36px;
                 font-weight: 700;
                 line-height: 54px;
@@ -152,7 +152,7 @@ nav.bg-light {
         padding: 50px 0px;
 
         .section-heading {
-            font-family: $font-lato;
+            font-family: $font-pop;
             font-size: 24px;
             font-weight: 700;
             line-height: 29px;
@@ -257,12 +257,12 @@ footer {
 .privacy__page,
 .terms__page {
     padding-top: 100px;
+    font-family: $font-pop;
 
     .accordion-button {
         background: #ffffff;
         border: 1px solid rgba(0, 0, 0, 0.3);
         padding: 10px 15px;
-        font-family: $font-pop;
         font-size: 16px;
         font-weight: 600;
         border-radius: 14px !important;
@@ -285,7 +285,6 @@ footer {
             }
 
             list-style: none;
-            font-family: $font-meri;
             font-size: 16px;
             font-weight: 700;
             line-height: 30px;
@@ -309,7 +308,6 @@ footer {
 
     h1,
     h2 {
-        font-family: $font-meri;
         font-size: 20px;
         font-weight: 700;
         line-height: 25px;
@@ -319,7 +317,6 @@ footer {
     }
 
     p {
-        font-family: $font-meri;
         font-size: 14px;
         font-weight: 400;
         line-height: 25px;
@@ -330,11 +327,11 @@ footer {
 
 // about us
 .about__page {
+    font-family: $font-pop;
     padding-left: 10px;
     padding-right: 10px;
 
     h1 {
-        font-family: $font-meri;
         font-size: 30px;
         font-weight: 700;
         line-height: 38px;
@@ -344,7 +341,6 @@ footer {
     }
 
     .desc {
-        font-family: $font-robo;
         font-size: 20px;
         font-weight: 600;
         line-height: 23px;
@@ -360,7 +356,6 @@ footer {
     }
 
     p {
-        font-family: $font-lato;
         font-size: 18px;
         font-weight: 600;
         line-height: 32px;
@@ -371,11 +366,11 @@ footer {
 
 // contact us
 .contact__page {
+    font-family: $font-pop;
     padding-left: 10px;
     padding-right: 10px;
 
     h1 {
-        font-family: $font-meri;
         font-size: 30px;
         font-weight: 700;
         line-height: 30px;
@@ -386,7 +381,6 @@ footer {
     }
 
     p {
-        font-family: $font-robo;
         font-size: 20px;
         font-weight: 600;
         line-height: 23px;
@@ -397,7 +391,6 @@ footer {
     }
 
     a {
-        font-family: $font-robo;
         text-decoration: none;
         font-size: 20px;
         font-weight: 600;
