@@ -124,15 +124,14 @@ fetch("js/womensData.json")
 fetch("js/menData.json")
   .then((res) => res.json())
   .then((data) => {
-    console.log(data)
     var array = ["dress", "denim", "T-SHIRT", "SHOES", "SKIRTS", "SPORTS WEAR"];
     array.forEach((element, ind) => {
       var result;
       data
         .filter((res) => res.category.toLowerCase() == element.toLowerCase())
         .map((item) => {
-          result += ` <div class="product-card" onclick="getItem(this)">
-                        <img src="${item.image}" alt="product_image">
+          result = ` <div class="product-card" onclick="getItem(this)">
+                        <img src="${item.Image}" alt="product_image">
                         <div class="content">
                             <div class="product-heading">
                                 ${item.name}
@@ -141,7 +140,7 @@ fetch("js/menData.json")
                                 KawaiToys
                             </div>
                             <div class="product-price">
-                                $${item.price}
+                                $${item.Price}
                             </div>
                             <button>Buy Now</button>
                         </div>
