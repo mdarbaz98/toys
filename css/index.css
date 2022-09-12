@@ -232,7 +232,7 @@ footer .middle-section .footer-heading img {
   object-fit: contain;
 }
 footer .middle-section .footer-heading a {
-  font-family: "Roboto Serif", serif;
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
   font-size: 28px;
   font-weight: 600;
@@ -252,10 +252,10 @@ footer .middle-section .quick-links li {
 footer .middle-section .quick-links li a {
   text-decoration: none;
   color: #2b2b2b;
-  font-family: "Roboto Serif", serif;
+  font-family: "Poppins", sans-serif;
 }
 footer .middle-section p {
-  font-family: "Roboto Serif", serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 23px;
@@ -498,105 +498,6 @@ footer .middle-section p {
     margin-top: 20px !important;
   }
 }
-.paymentmode-section .container {
-  max-width: 1000px;
-}
-.paymentmode-section .container .payment-main {
-  margin-top: 70px;
-}
-.paymentmode-section .container .payment-main .paymentmode-main {
-  border-radius: 18px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.08);
-  margin-bottom: 33px;
-}
-.paymentmode-section .container .payment-main .paymentmode-main .icon-image .icon-image-content {
-  font-family: "Lora", serif;
-}
-.paymentmode-section .container .payment-main .paymentmode-main .icon-image img {
-  width: 45px;
-  margin: 0px 16px 0px 16px;
-  object-fit: contain;
-}
-.paymentmode-section .container .payment-main .paymentmode-main .icon-image p {
-  margin-bottom: 0px;
-  font-weight: 700;
-  font-size: 16px;
-}
-.paymentmode-section .container .payment-main .paymentmode-main .icon-content button {
-  width: 150px;
-  display: flex;
-  height: 45px;
-  align-items: center;
-  justify-content: center;
-  background: #ffffff;
-  border: 1px solid #0c3072;
-  border-radius: 18px;
-  font-weight: 500;
-  font-size: 17px;
-  color: #0c3072;
-  font-family: "Poppins", sans-serif;
-}
-.paymentmode-section .container .payment-main .paymentmode-main .icon-content button:hover {
-  background-color: #0c3072;
-  color: #fff;
-}
-.paymentmode-section .container .payment-main .paymentmode-main .icon-content p {
-  margin: 0px 0px 0px 15px;
-  font-weight: 600;
-  font-size: 17px;
-}
-.paymentmode-section .container .payment-main .paymentmode-main .icon-content .icon-p-con1 {
-  color: #11ab36;
-  font-size: 14px;
-  font-family: "Poppins", sans-serif;
-  margin: 0px 20px 0px 0px;
-}
-.paymentmode-section .container .payment-main .paymentmode-main .icon-content .icon-p-con2 {
-  color: #9c36d4;
-  font-size: 14px;
-  font-family: "Poppins", sans-serif;
-  margin: 0px 20px 0px 0px;
-}
-@media (min-width: 320px) and (max-width: 767px) {
-  .paymentmode-section .note-container {
-    background: #dbeafe;
-    border-radius: 18px;
-    margin: 58px 0px 15px 0px;
-    padding: 10px 10px 10px 18px;
-  }
-  .paymentmode-section .note-container h1 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    color: #0c3072;
-  }
-  .paymentmode-section .note-container p {
-    color: #0c3072;
-    font-size: 14px;
-    margin-bottom: 0px;
-  }
-  .paymentmode-section .container .payment-main {
-    margin-top: 0px;
-  }
-  .paymentmode-section .container .payment-main .paymentmode-main {
-    margin-bottom: 25px;
-  }
-  .paymentmode-section .container .payment-main .paymentmode-main .icon-image img {
-    width: 40px;
-    margin: 0px 7px 0px 12px;
-  }
-  .paymentmode-section .container .payment-main .paymentmode-main .icon-content button {
-    width: 120px;
-  }
-  .paymentmode-section .container .payment-main .paymentmode-main .icon-content .icon-p-con1 {
-    margin: 0px 8px 0px 0px;
-  }
-  .paymentmode-section .container .payment-main .paymentmode-main .icon-content .icon-p-con2 {
-    margin: 0px 8px 0px 0px;
-  }
-}
-
 .mens-category {
   margin: 80px 0px 50px 0px;
 }
@@ -855,7 +756,7 @@ footer .middle-section p {
   padding: 10px 10px;
 }
 .productpage .productpage-main .checkoutform .modal-header .checkout-h {
-  font-family: "Roboto Serif", serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 36px;
   text-align: center;

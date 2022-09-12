@@ -20,11 +20,11 @@ include('./include/header.php')
           <div class="hide-div-phn d-flex">
             <p>$19.21</p>
             <div class="inc-dec d-flex">
-              <button>
+              <button class="counterbtn increase">
                 <i class="fa-solid fa-plus"></i>
               </button>
-              <p>1</p>
-              <button>
+              <p id="value">1</p>
+              <button class="counterbtn decrease">
                 <i class="fa-solid fa-minus"></i>
               </button>
             </div>

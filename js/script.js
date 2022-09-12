@@ -250,3 +250,23 @@ allbtn.addEventListener("click",function(e){
     })
   }
 })
+
+
+const counterbtn=document.querySelectorAll(".counterbtn")
+const value=document.getElementById("value");
+let count=0;
+counterbtn.forEach(function(btn){
+  btn.addEventListener("click",function(e){
+    const styles=e.currentTarget.classList;
+    if(styles.contains("decrease")){
+      count--;
+    }
+    else if(styles.contains("increase")) {
+      count++;
+    } 
+    else {
+      count = 0;
+    }
+    value.textContent=count
+  })
+})
