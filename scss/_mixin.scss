@@ -2,6 +2,7 @@
 
 @mixin card {
     .product-card {
+        font-family: $font-pop;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -27,7 +28,6 @@
             gap: 20px;
     
             .product-heading {
-                font-family: 'Roboto Serif';
                 font-style: normal;
                 font-weight: 600;
                 font-size: 20px;
@@ -37,7 +37,7 @@
             }
     
             .brand {
-                font-family: 'Lato';
+                // font-family: 'Lato';
                 font-style: normal;
                 font-weight: 500;
                 font-size: 16px;
@@ -47,7 +47,7 @@
             }
     
             .product-price {
-                font-family: $font-robo;
+                // font-family: $font-robo;
                 font-style: normal;
                 font-weight: 700;
                 font-size: 20px;
@@ -57,7 +57,7 @@
             }
     
             button {
-                font-family: $font-robo;
+                // font-family: $font-robo;
                 font-weight: 500;
                 padding: 9px 22px;
                 color: #6200EA;

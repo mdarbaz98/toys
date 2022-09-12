@@ -125,6 +125,7 @@ nav.bg-light .cart-btn {
   margin-bottom: 50px;
 }
 .home__page .products_section .product-card {
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -148,7 +149,6 @@ nav.bg-light .cart-btn {
   gap: 20px;
 }
 .home__page .products_section .product-card .content .product-heading {
-  font-family: "Roboto Serif";
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -157,7 +157,6 @@ nav.bg-light .cart-btn {
   text-align: center;
 }
 .home__page .products_section .product-card .content .brand {
-  font-family: "Lato";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -166,7 +165,6 @@ nav.bg-light .cart-btn {
   color: #6D6D6D;
 }
 .home__page .products_section .product-card .content .product-price {
-  font-family: "Roboto Serif", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -175,7 +173,6 @@ nav.bg-light .cart-btn {
   color: #313131;
 }
 .home__page .products_section .product-card .content button {
-  font-family: "Roboto Serif", serif;
   font-weight: 500;
   padding: 9px 22px;
   color: #6200EA;
@@ -614,6 +611,7 @@ footer .middle-section p {
   margin-top: 40px;
 }
 .mens-category .product-card {
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -637,7 +635,6 @@ footer .middle-section p {
   gap: 20px;
 }
 .mens-category .product-card .content .product-heading {
-  font-family: "Roboto Serif";
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -646,7 +643,6 @@ footer .middle-section p {
   text-align: center;
 }
 .mens-category .product-card .content .brand {
-  font-family: "Lato";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -655,7 +651,6 @@ footer .middle-section p {
   color: #6D6D6D;
 }
 .mens-category .product-card .content .product-price {
-  font-family: "Roboto Serif", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -664,7 +659,6 @@ footer .middle-section p {
   color: #313131;
 }
 .mens-category .product-card .content button {
-  font-family: "Roboto Serif", serif;
   font-weight: 500;
   padding: 9px 22px;
   color: #6200EA;
@@ -783,6 +777,7 @@ footer .middle-section p {
   margin-top: 40px;
 }
 .productpage .productpage-main .related .product-card {
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -806,7 +801,6 @@ footer .middle-section p {
   gap: 20px;
 }
 .productpage .productpage-main .related .product-card .content .product-heading {
-  font-family: "Roboto Serif";
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -815,7 +809,6 @@ footer .middle-section p {
   text-align: center;
 }
 .productpage .productpage-main .related .product-card .content .brand {
-  font-family: "Lato";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -824,7 +817,6 @@ footer .middle-section p {
   color: #6D6D6D;
 }
 .productpage .productpage-main .related .product-card .content .product-price {
-  font-family: "Roboto Serif", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -833,7 +825,6 @@ footer .middle-section p {
   color: #313131;
 }
 .productpage .productpage-main .related .product-card .content button {
-  font-family: "Roboto Serif", serif;
   font-weight: 500;
   padding: 9px 22px;
   color: #6200EA;
