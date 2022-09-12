@@ -4,7 +4,7 @@ include('./include/header.php');
 <section class="checkout_1 ps-lg-3">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-lg-8">
+            <!-- <div class="col-12 col-lg-8">
                 <div class="qr_section">
                     <div class="top-heading d-none d-flex gap-4">
                         <img src="./assets/images/Newlands Clothings/cash-app.png" alt="">
@@ -74,11 +74,11 @@ include('./include/header.php');
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="cta_colmn text-center text-lg-start my-3 my-lg-0 col-12 order-2 order-lg-3">
+                        <div class="cta_colmn text-center text-lg-start my-3 my-lg-0 col-12 order-2 order-lg-3">
                             <p>Kindly Add Note as a Newlands Clothings in your Cash App </p>
                             <button class="btn mb-3">I Have Made My Payment</button></br>
                             <button class="btn">I Have Made My Payment</button>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
                 <div class="call_payment_section d-none">
@@ -105,6 +105,9 @@ include('./include/header.php');
                     <button class="btn mb-3">I Have Made My Payment</button></br>
                     <button class="btn">I Have Made My Payment</button>
                 </div>
+            </div> -->
+            <div class="col-lg-8 col-12">
+                <button class="btn btn-primary">Paypal</button>
             </div>
             <div class="col-12 col-lg-4">
                 <div class="card mb-3">

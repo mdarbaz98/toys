@@ -25,30 +25,9 @@ include('./include/header.php')
         </div>
     </div>
     <div class="products_section">
-        <div class="section-heading">Bear & Soft Toys</div>
+        <div class="section-heading">Men's</div>
         <div class="container-fluid">
-            <div class="row owl-carousel home-carousel-1">
-            </div>
-        </div>
-    </div>
-    <div class="products_section">
-        <div class="section-heading">Bear & Soft Toys</div>
-        <div class="container-fluid">
-            <div class="row owl-carousel home-carousel-2">
-            </div>
-        </div>
-    </div>
-    <div class="products_section">
-        <div class="section-heading">Bear & Soft Toys</div>
-        <div class="container-fluid">
-            <div class="row owl-carousel home-carousel-3">
-            </div>
-        </div>
-    </div>
-    <div class="products_section">
-        <div class="section-heading">Bear & Soft Toys</div>
-        <div class="container-fluid">
-            <div class="row owl-carousel home-carousel-4">
+            <div class="row owl-carousel home-men-carousel-0">
             </div>
         </div>
     </div>
