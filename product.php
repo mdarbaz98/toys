@@ -1,12 +1,15 @@
 <?php 
 include('./include/header.php')
 ?> 
+<script>
+
+</script>
 <section class="productpage">
   <div class="productpage-main">
     <div class="container">
       <div class="row">
         <div class="col-lg-5 product-img">
-          <img src="./assets/images/Newlands Clothings/Product Image/Sports-Wear-PNG-Photos.png" alt="">
+          <img class="singleProImage" src="./assets/images/Newlands Clothings/Product Image/Sports-Wear-PNG-Photos.png" alt="">
         </div>
         <div class="col-lg-7 product-content">
           <h2>Men’s Sports Tshirts and Shorts</h2>
@@ -18,7 +21,7 @@ include('./include/header.php')
             <button class="sizebtn" data-id="btn4">38</button>
           </div>
           <div class="hide-div-phn d-flex">
-            <p>$19.21</p>
+            <p class="singleProPrice">$19.21</p>
             <div class="inc-dec d-flex">
               <button class="counterbtn increase">
                 <i class="fa-solid fa-plus"></i>
@@ -41,23 +44,12 @@ include('./include/header.php')
       <div class="tshirt-heading">
         <h2>Sports Wear</h2>
       </div>
-      <div class="container-fluid">
-        <div class="row owl-carousel">
-          <div class="col-12">
-            <div class="product-card">
-              <img src="./assets/images/Newlands Clothings/Product Image/T-Shirt-PNG-Pic.png" alt="product_image">
-              <div class="content">
-                <div class="product-heading"> HOUSE OF JAMOTI</div>
-                <div class="brand"> Men’s T shirts </div>
-                <div class="d-flex gap-5 align-items-center">
-                  <div class="product-price"> $33.42 </div>
-                  <button>Buy Now</button>
-                </div>
-              </div>
+      <div class="products_section">
+        <div class="container-fluid">
+            <div class="row owl-carousel home-carousel-0">
             </div>
-          </div>
         </div>
-      </div>
+    </div>
     </div>
     <!-- modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
