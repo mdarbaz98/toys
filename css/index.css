@@ -170,14 +170,14 @@ nav.bg-light .cart-btn {
   font-size: 20px;
   line-height: 23px;
   text-align: center;
-  color: #313131;
+  color: #233570;
 }
 .home__page .products_section .product-card .content button {
   font-weight: 500;
   padding: 9px 22px;
-  color: #6200EA;
+  color: #233570;
   background: #FFFFFF;
-  border: 1px solid #6200EA;
+  border: 1px solid #233570;
   border-radius: 16px;
 }
 @media (max-width: 767px) {
@@ -205,7 +205,7 @@ nav.bg-light .cart-btn {
   border: 1px solid #c9c9c9 !important;
 }
 .home__page .owl-nav button i {
-  color: #6200ea;
+  color: #233570;
 }
 
 footer {
@@ -649,14 +649,14 @@ footer .middle-section p {
   font-size: 20px;
   line-height: 23px;
   text-align: center;
-  color: #313131;
+  color: #233570;
 }
 .mens-category .product-card .content button {
   font-weight: 500;
   padding: 9px 22px;
-  color: #6200EA;
+  color: #233570;
   background: #FFFFFF;
-  border: 1px solid #6200EA;
+  border: 1px solid #233570;
   border-radius: 16px;
 }
 @media (max-width: 767px) {
@@ -670,7 +670,7 @@ footer .middle-section p {
 }
 
 .productpage .productpage-main {
-  margin-top: 25px;
+  margin-top: 120px;
 }
 .productpage .productpage-main .product-img img {
   width: 100%;
@@ -815,14 +815,14 @@ footer .middle-section p {
   font-size: 20px;
   line-height: 23px;
   text-align: center;
-  color: #313131;
+  color: #233570;
 }
 .productpage .productpage-main .related .product-card .content button {
   font-weight: 500;
   padding: 9px 22px;
-  color: #6200EA;
+  color: #233570;
   background: #FFFFFF;
-  border: 1px solid #6200EA;
+  border: 1px solid #233570;
   border-radius: 16px;
 }
 @media (max-width: 767px) {
@@ -875,7 +875,7 @@ footer .middle-section p {
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .productpage .productpage-main {
-    margin-top: 0px;
+    margin-top: 90px;
   }
   .productpage .productpage-main .product-content h2 {
     font-size: 22px;

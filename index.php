@@ -18,16 +18,30 @@ include('./include/header.php')
         </div>
     </div>
     <div class="products_section">
-        <div class="section-heading">Bear & Soft Toys</div>
+        <div class="section-heading">Womens Dress</div>
         <div class="container-fluid">
             <div class="row owl-carousel home-carousel-0">
             </div>
         </div>
     </div>
     <div class="products_section">
-        <div class="section-heading">Men's</div>
+        <div class="section-heading">Mens Hoodie</div>
         <div class="container-fluid">
             <div class="row owl-carousel home-men-carousel-0">
+            </div>
+        </div>
+    </div>
+    <div class="products_section">
+        <div class="section-heading">Womens denim</div>
+        <div class="container-fluid">
+            <div class="row owl-carousel home-carousel-1">
+            </div>
+        </div>
+    </div>
+    <div class="products_section">
+        <div class="section-heading">Mens Shirt</div>
+        <div class="container-fluid">
+            <div class="row owl-carousel home-men-carousel-1">
             </div>
         </div>
     </div>

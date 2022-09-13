@@ -20,7 +20,7 @@
     <header>
         <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container-fluid d-flex content-space-between">
-                <a class="navbar-brand" href="#"><img src="./assets/images/Newlands Clothings/Logo.png" alt="logo"><p>
+                <a class="navbar-brand" href="index.php"><img src="./assets/images/Newlands Clothings/Logo.png" alt="logo"><p>
 Newlands Clothings </p></a>
                 <div class="right-sdie-header d-flex gap-3">
                         <form>
