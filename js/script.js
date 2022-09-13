@@ -104,7 +104,7 @@ fetch("js/womensData.json")
                                 ${item.name}
                             </div>
                             <div class="brand">
-                            Newlands Clothings
+                            ${item.category}
                             </div>
                             <div class="d-flex gap-4 gap-lg-5 align-items-center justify-content-center">
                             <div class="product-price">
@@ -129,14 +129,14 @@ fetch("js/menData.json")
       data
         .filter((res) => res.category.toLowerCase() == element.toLowerCase())
         .map((item) => {
-          result += ` <div class="product-card" onclick="getItem(this)">
+          result += `<div class="product-card" onclick="getItem(this)">
                         <img src="${item.Image}" alt="product_image">
                         <div class="content">
                             <div class="product-heading mt-3">
                                 ${item.name}
                             </div>
                             <div class="brand">
-                            Newlands Clothings
+                            ${item.category}
                             </div>
                             <div class="d-flex gap-4 gap-lg-5 align-items-center justify-content-center">
                             <div class="product-price">
@@ -163,14 +163,31 @@ $(".search-btn").click(function (e) {
 });
 
 function getItem(item) {
-  console.log(item);
+var img = $(item).find('img')[0].currentSrc,
+ name = $(item).find('.product-heading')[0].textContent.trim(),
+ price = $(item).find('.product-price')[0].textContent.trim();
+window.location.href = `product.php?name=${name}&image=${img}&price=${price}`;
+// setSingleProduct();
 }
 
-$(window).resize(function () {
-  if ($(window).width() < 500) {
-    $('.navbar-brand img').css({"width":"30px"})
-  } 
-})
+function setSingleProduct(){
+  let params = new URLSearchParams(location.search);
+  let name = params.get('name');
+  let image = params.get('image');
+  let price = params.get('price');
+  $('.product-content h2').html(name);
+  $('.singleProImage').attr("src",image)
+  $('.singleProPrice').html(price);
+}
+setSingleProduct();
+
+
+
+// $(window).resize(function () {
+//   if ($(window).width() < 500) {
+//     $('.navbar-brand img').css({"width":"30px"})
+//   }
+// })
 
 const allbtn = document.querySelector(".size-btns");
 const btns = document.querySelectorAll(".sizebtn");
@@ -183,27 +200,23 @@ allbtn.addEventListener("click", function (e) {
       e.target.classList.add("active");
     });
   }
-})
+});
 
-
-const counterbtn=document.querySelectorAll(".counterbtn")
-const value=document.getElementById("value");
-let count=1;
-counterbtn.forEach(function(btn){
-  btn.addEventListener("click",function(e){
-    const styles=e.currentTarget.classList;
-    if(styles.contains("increase")){
+const counterbtn = document.querySelectorAll(".counterbtn");
+const value = document.getElementById("value");
+let count = 1;
+counterbtn.forEach(function (btn) {
+  btn.addEventListener("click", function (e) {
+    const styles = e.currentTarget.classList;
+    if (styles.contains("increase")) {
       count++;
-    }
-    else if(styles.contains("decrease")) {
-      if(count > 1)
-      {
-         count--;
+    } else if (styles.contains("decrease")) {
+      if (count > 1) {
+        count--;
       }
-    } 
-    else {
+    } else {
       count = 1;
     }
-    value.textContent=count
-  })
-})
+    value.textContent = count;
+  });
+});
