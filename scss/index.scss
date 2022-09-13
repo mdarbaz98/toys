@@ -885,7 +885,8 @@ footer {
 // product page
 
 //checkout page 1
-.checkout_1 {
+.checkout_1 
+{
     padding-top: 120px;
 
     .qr_section {
@@ -1388,6 +1389,12 @@ footer {
                 color: #0c3072;
             }
         }
+    }
+    .paypal-btn{
+        padding:6px 30px;
+        background-color: #021b79;
+       font-family: $font-pop;
+
     }
 }
 

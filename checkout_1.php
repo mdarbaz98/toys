@@ -106,10 +106,7 @@ include('./include/header.php');
                     <button class="btn">I Have Made My Payment</button>
                 </div>
             </div> -->
-            <div class="col-lg-8 col-12">
-                <button class="btn btn-primary">Paypal</button>
-            </div>
-            <div class="col-12 col-lg-4">
+            <div class="col-lg-6">
                 <div class="card mb-3">
                     <div class="card-header text-center">
                         Product Details
@@ -157,6 +154,8 @@ include('./include/header.php');
                         <strong>$371.9</strong>
                     </div>
                 </div>
+            </div>
+            <div class="col-lg-6">
                 <div class="card mb-3">
                     <div class="card-header text-center">
                         User Details
@@ -182,6 +181,9 @@ include('./include/header.php');
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="col-12 d-flex justify-content-center my-5">
+                <button class="btn btn-primary paypal-btn">Paypal</button>
             </div>
         </div>
     </div>
