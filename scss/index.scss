@@ -26,7 +26,9 @@ $font-lato: "Lato", sans-serif;
 // header scss
 nav.bg-light {
     background-color: transparent !important;
-
+    .search-input{
+        background-color: #fff
+    }
     a.navbar-brand {
         display: flex;
         flex-direction: column;
@@ -36,6 +38,7 @@ nav.bg-light {
         img {
             width: 60px;
         }
+
     }
 
     form {
@@ -433,6 +436,13 @@ footer {
             left: 50%;
             transform: translateX(-50%);
             top: 0px;
+        }
+
+        .search-input{
+            right: -30px;
+            .list-group-item{
+                width: 330px;
+            }
         }
 
         .right-sdie-header {
