@@ -1,7 +1,7 @@
 <footer>
   <div class="banner-image">
     <img class="footer-b d-lg-block d-none" src="./assets/images/Newlands Clothings/Footer.png">
-    <img class="footer-b-mobile d-lg-none d-md-block" src="./assets/images/Newlands Clothings/Footermobile.png">
+    <img class="footer-b-mobile d-lg-none d-md-block" src="./assets/images/Newlands Clothings/Footer_Mobile.png">
   </div>
   <div class="container-fluid">
     <div class="row">
@@ -9,9 +9,7 @@
         <div class="middle-section">
           <div class="footer-heading">
            <div class="logo-img d-flex justify-content-center mb-4">
-           <img src="./assets/images/Newlands Clothings/Logo.png" alt="">
            </div>
-            <a href="index.php">Newlands Clothings</a>
           </div>
           <ul class="quick-links">
             <li>

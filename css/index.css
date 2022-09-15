@@ -18,28 +18,19 @@ nav.bg-light a.navbar-brand {
   justify-content: center;
   align-items: center;
 }
-nav.bg-light a.navbar-brand p {
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 21px;
-  letter-spacing: 0em;
-  color: #233570;
-  margin-bottom: 0px;
-}
 nav.bg-light a.navbar-brand img {
   width: 60px;
 }
 nav.bg-light form {
   overflow: hidden;
   position: relative;
-  width: 162px;
+  width: 400px;
   height: 33px;
 }
 nav.bg-light form input {
   width: 100%;
   height: 100%;
-  padding: 0px 28px 0px 10px;
+  padding: 0px 28px 6px 15px;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 16px;
@@ -61,6 +52,58 @@ nav.bg-light .cart-btn {
   width: 33px;
   background-color: transparent;
   border: none;
+}
+nav.bg-light .search-input {
+  position: absolute;
+  overflow-y: auto;
+  max-height: 300px;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  z-index: 1001;
+  padding-left: 0px;
+}
+nav.bg-light .search-input::-webkit-scrollbar {
+  width: 4px;
+}
+nav.bg-light .search-input::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+}
+nav.bg-light .search-input::-webkit-scrollbar-track {
+  background-color: rgb(141, 141, 141);
+}
+nav.bg-light .search-input .list-group-item {
+  border-radius: 16px;
+  border-top: none;
+  width: 380px;
+}
+nav.bg-light .search-input .search-img {
+  width: 30px;
+  height: 35px;
+  object-fit: contain;
+}
+nav.bg-light .search-input .name {
+  font-family: "Roboto Serif", serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #313131;
+  white-space: nowrap;
+  width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+nav.bg-light .search-input .price {
+  font-family: "Roboto Serif", serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #313131;
+}
+nav.bg-light .search-input button {
+  font-weight: 500;
+  padding: 5px 15px;
+  color: #233570;
+  background: #FFFFFF;
+  border: 1px solid #233570;
+  border-radius: 16px;
 }
 
 .home__page .banner {
@@ -88,22 +131,11 @@ nav.bg-light .cart-btn {
   margin-bottom: 60px;
   color: #233570;
 }
-.home__page .banner .content .buttons .btn {
-  width: 124px;
-}
-.home__page .banner .content .buttons .first-btn {
-  background: #233570;
-  border-radius: 12px;
-  color: #fff;
-}
-.home__page .banner .content .buttons .sec-btn {
-  border: 2px solid #233570;
-  border-radius: 12px;
-}
 .home__page .banner .content a {
+  cursor: pointer;
   position: relative;
   color: #233570;
-  margin-top: 90px;
+  margin-top: 0px;
 }
 .home__page .banner .content a i {
   position: absolute;
@@ -155,6 +187,12 @@ nav.bg-light .cart-btn {
   line-height: 23px;
   color: #313131;
   text-align: center;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  height: 25px;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .home__page .products_section .product-card .content .brand {
   font-style: normal;
@@ -189,7 +227,8 @@ nav.bg-light .cart-btn {
     height: 140px;
   }
 }
-.home__page .owl-nav {
+
+.owl-nav {
   display: flex;
   gap: 10px;
   position: absolute;
@@ -197,14 +236,14 @@ nav.bg-light .cart-btn {
   right: 0px;
   width: auto;
 }
-.home__page .owl-nav button {
+.owl-nav button {
   width: 34px;
   height: 34px;
   background: #ffffff !important;
   border-radius: 50px;
   border: 1px solid #c9c9c9 !important;
 }
-.home__page .owl-nav button i {
+.owl-nav button i {
   color: #233570;
 }
 
@@ -227,16 +266,6 @@ footer .middle-section {
 footer .middle-section .footer-heading img {
   width: 75px;
   object-fit: contain;
-}
-footer .middle-section .footer-heading a {
-  font-family: "Poppins", sans-serif;
-  text-decoration: none;
-  font-size: 28px;
-  font-weight: 600;
-  line-height: 33px;
-  letter-spacing: 0em;
-  text-align: center;
-  color: #233570;
 }
 footer .middle-section .quick-links {
   padding-left: 0px;
@@ -535,6 +564,12 @@ footer .middle-section p {
   line-height: 23px;
   color: #313131;
   text-align: center;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  height: 25px;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .mens-category .product-card .content .brand {
   font-style: normal;
@@ -590,25 +625,6 @@ footer .middle-section p {
   font-size: 20px;
   text-align: center;
   color: #313131;
-}
-.productpage .productpage-main .product-content .size-btns {
-  margin: 25px 0px 10px 0px;
-}
-.productpage .productpage-main .product-content .size-btns button {
-  background: #fbfbfb;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
-  width: 50px;
-  height: 50px;
-  color: #233570;
-  margin: 0px 20px 0px 0px;
-  font-family: "Roboto Serif", serif;
-  font-weight: 500;
-  font-size: 20px;
-}
-.productpage .productpage-main .product-content .size-btns button.active {
-  background-color: #233570;
-  color: #fff;
 }
 .productpage .productpage-main .product-content .buynow-cart .buynow {
   background-color: #233570;
@@ -702,6 +718,12 @@ footer .middle-section p {
   line-height: 23px;
   color: #313131;
   text-align: center;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  height: 25px;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .productpage .productpage-main .related .product-card .content .brand {
   font-style: normal;
@@ -781,9 +803,6 @@ footer .middle-section p {
   }
   .productpage .productpage-main .product-content h2 {
     font-size: 22px;
-  }
-  .productpage .productpage-main .product-content .size-btns {
-    margin: 20px 0px 10px 0px;
   }
   .productpage .productpage-main .product-content .hide-div-phn {
     margin: 0px;

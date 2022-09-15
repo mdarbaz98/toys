@@ -13,12 +13,12 @@
         border: 1px solid rgba(0, 0, 0, 0.1);
         box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
         border-radius: 18px;
-    
+
         img {
             height: 235px;
             object-fit: contain;
         }
-    
+
         .content {
             display: flex;
             gap: 15px;
@@ -26,7 +26,7 @@
             justify-content: center;
             // align-items: start;
             gap: 20px;
-    
+
             .product-heading {
                 font-style: normal;
                 font-weight: 600;
@@ -34,8 +34,14 @@
                 line-height: 23px;
                 color: #313131;
                 text-align: center;
+                -webkit-box-orient: vertical;
+                display: -webkit-box;
+                height: 25px;
+                -webkit-line-clamp: 1;
+                overflow: hidden;
+                text-overflow: ellipsis;
             }
-    
+
             .brand {
                 // font-family: 'Lato';
                 font-style: normal;
@@ -45,7 +51,7 @@
                 text-align: center;
                 color: #6D6D6D;
             }
-    
+
             .product-price {
                 // font-family: $font-robo;
                 font-style: normal;
@@ -55,7 +61,7 @@
                 text-align: center;
                 color: #233570;
             }
-    
+
             button {
                 // font-family: $font-robo;
                 font-weight: 500;
@@ -67,9 +73,11 @@
             }
         }
     }
-    @media (max-width: 767px){
-        .product-card{
+
+    @media (max-width: 767px) {
+        .product-card {
             margin: 15px;
+
             img {
                 width: 170px;
                 height: 140px;
@@ -78,7 +86,7 @@
     }
 }
 
-@mixin nav{
+@mixin nav {
     .owl-nav {
         display: flex;
         gap: 10px;

@@ -16,88 +16,20 @@ function owlFunction() {
       },
       1000: {
         items: 4,
-        // touchDrag: false,
-        // mouseDrag  : false,
       },
     },
   });
 }
-
-// swipe button js
-var initialMouse = 0;
-var slideMovementTotal = 0;
-var mouseIsDown = false;
-var slider = $(".slider-btn");
-var link;
-
-slider.on("mousedown touchstart", function (event) {
-  link = $(this).attr("data-link");
-  mouseIsDown = true;
-  slideMovementTotal = $(".product_content4").width() - $(this).width() + 10;
-  initialMouse = event.clientX || event.originalEvent.touches[0].pageX;
-});
-
-$(document.body, ".slider-btn").on("mouseup touchend", function (event) {
-  if (!mouseIsDown) return;
-  mouseIsDown = false;
-  var currentMouse = event.clientX || event.changedTouches[0].pageX;
-  var relativeMouse = currentMouse - initialMouse;
-
-  if (relativeMouse < slideMovementTotal) {
-    $(".slide-text").fadeTo(300, 1);
-    slider.animate(
-      {
-        left: "-10px",
-      },
-      300
-    );
-    return;
-  }
-  slider.addClass("unlocked");
-  slider.html('<i class="fa-solid fa-phone"></i>');
-  setTimeout(function () {
-    slider.on("click tap", function (event) {
-      if (!slider.hasClass("unlocked")) return;
-      slider.removeClass("unlocked");
-      slider.html('<i class="fa-solid fa-angle-right"></i>');
-      slider.off("click tap");
-    });
-  }, 0);
-  setTimeout(() => {
-    window.location.href = "tel://" + link;
-  }, 300);
-});
-
-$(document.body).on("mousemove touchmove", function (event) {
-  if (!mouseIsDown) return;
-
-  var currentMouse = event.clientX || event.originalEvent.touches[0].pageX;
-  var relativeMouse = currentMouse - initialMouse;
-  var slidePercent = 1 - relativeMouse / slideMovementTotal;
-
-  $(".slide-text").fadeTo(0, slidePercent);
-
-  if (relativeMouse <= 0) {
-    slider.css({ left: "-10px" });
-    return;
-  }
-  if (relativeMouse >= slideMovementTotal + 10) {
-    slider.css({ left: slideMovementTotal + "px" });
-    return;
-  }
-  slider.css({ left: relativeMouse - 10 });
-});
-
-fetch("js/womensData.json")
+fetch("js/data.json")
   .then((res) => res.json())
   .then((data) => {
-    var array = ["dress", "denim", "T-SHIRT", "SHOES", "SKIRTS", "SPORTS WEAR"];
+    var array = ["Grooming","Wearables","Leash","Toys","Pet Food"];
     array.forEach((element, ind) => {
       var result = "";
       data
         .filter((res) => res.category.toLowerCase() == element.toLowerCase())
         .map((item) => {
-          result += ` <div class="product-card" onclick="getItem(this)">
+          result += `<div class="product-card" onclick="getItem(this)">
                         <img src="${item.image}" alt="product_image">
                         <div class="content">
                             <div class="product-heading mt-3">
@@ -108,45 +40,13 @@ fetch("js/womensData.json")
                             </div>
                             <div class="d-flex gap-4 gap-lg-5 align-items-center justify-content-center">
                             <div class="product-price">
-                            $${item.price}
-                        </div>
-                        <button>Buy Now</button>
-                            </div>
-                        </div>
-                    </div>`;
-          $(`.home-carousel-${ind}`).html(result);
-        });
-    });
-  })
-  .catch((err) => console.log(err));
-
-fetch("js/menData.json")
-  .then((res) => res.json())
-  .then((data) => {
-    var array = ["Hoodie", "shirt", "T-SHIRT", "Jeans", "Trouser"];
-    array.forEach((element, ind) => {
-      var result = "";
-      data
-        .filter((res) => res.category.toLowerCase() == element.toLowerCase())
-        .map((item) => {
-          result += `<div class="product-card" onclick="getItem(this)">
-                        <img src="${item.Image}" alt="product_image">
-                        <div class="content">
-                            <div class="product-heading mt-3">
-                                ${item.name}
-                            </div>
-                            <div class="brand">
-                            ${item.category}
-                            </div>
-                            <div class="d-flex gap-4 gap-lg-5 align-items-center justify-content-center">
-                            <div class="product-price">
-                                $${item.Price}
+                                $${item.price}
                             </div>
                             <button>Buy Now</button>
                             </div>
                         </div>
                     </div>`;
-          $(`.home-men-carousel-${ind}`).html(result);
+          $(`.home-carousel-${ind}`).html(result);
         });
     });
     owlFunction();
@@ -163,44 +63,73 @@ $(".search-btn").click(function (e) {
 });
 
 function getItem(item) {
-var img = $(item).find('img')[0].currentSrc,
- name = $(item).find('.product-heading')[0].textContent.trim(),
- price = $(item).find('.product-price')[0].textContent.trim();
-window.location.href = `product.php?name=${name}&image=${img}&price=${price}`;
-// setSingleProduct();
+  var img = $(item).find("img")[0].currentSrc,
+    name = $(item).find(".product-heading")[0].textContent.trim(),
+    price = $(item).find(".product-price")[0].textContent.trim(),
+    category = $(item).find(".brand")[0].textContent.trim();
+  window.location.href = `product.php?name=${name}&image=${img}&price=${price}&category=${category}`;
 }
 
-function setSingleProduct(){
-  let params = new URLSearchParams(location.search);
-  let name = params.get('name');
-  let image = params.get('image');
-  let price = params.get('price');
-  $('.product-content h2').html(name);
-  $('.singleProImage').attr("src",image)
-  $('.singleProPrice').html(price);
-}
-setSingleProduct();
-
-
-
-// $(window).resize(function () {
-//   if ($(window).width() < 500) {
-//     $('.navbar-brand img').css({"width":"30px"})
+// function setSingleProduct() {
+//   let params = new URLSearchParams(location.search);
+//   let name = params.get("name");
+//   let image = params.get("image");
+//   let price = params.get("price");
+//   let category = params.get("category");
+//   $(".product-content h2").html(name);
+//   $(".singleProImage").attr("src", image);
+//   $(".singleProPrice").html(price);
+//   $(".tshirt-heading h2").html(`${category.toLocaleLowerCase()}`);
+//   switch (category.toLowerCase()) {
+//     case "dress":
+//       $(".productpage-main .owl-carousel").addClass("home-carousel-0");
+//       break;
+//     case "denim":
+//       $(".productpage-main .owl-carousel").addClass("home-carousel-1");
+//       break;
+//     case "t-shirt":
+//       $(".productpage-main .owl-carousel").addClass("home-carousel-2");
+//       break;
+//     case "shoes":
+//       $(".productpage-main .owl-carousel").addClass("home-carousel-3");
+//       break;
+//     case "skirts":
+//       $(".productpage-main .owl-carousel").addClass("home-carousel-4");
+//       break;
+//     case "sports wear":
+//       $(".productpage-main .owl-carousel").addClass("home-carousel-5");
+//       break;
+//     case "hoodie":
+//       $(".productpage-main .owl-carousel").addClass("home-men-carousel-0");
+//       break;
+//     case "shirts":
+//       $(".productpage-main .owl-carousel").addClass("home-men-carousel-1");
+//       break;
+//     case "jeans":
+//       $(".productpage-main .owl-carousel").addClass("home-men-carousel-3");
+//       break;
+//     case "trouser":
+//       $(".productpage-main .owl-carousel").addClass("home-men-carousel-4");
+//       break;
 //   }
-// })
+// }
+// setSingleProduct();
 
-const allbtn = document.querySelector(".size-btns");
-const btns = document.querySelectorAll(".sizebtn");
+// $(window).scroll(function () {
+//   if ($(window).width() < 500) {
+//     $(".navbar-brand img").animate({ width: "25px" });
+//   } else {
+//     $(".navbar-brand img").animate({ width: "35px" });
+//   }
+// });
 
-allbtn.addEventListener("click", function (e) {
-  const id = e.target.dataset.id;
-  if (id) {
-    btns.forEach(function (btn) {
-      btn.classList.remove("active");
-      e.target.classList.add("active");
-    });
-  }
-});
+// smoothscroll fucntion
+function scrollToElement(elementId) {
+  const yOffset = -90;
+  var element = document.getElementById(elementId);
+  const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  window.scrollTo({ top: y, behavior: "smooth" });
+}
 
 const counterbtn = document.querySelectorAll(".counterbtn");
 const value = document.getElementById("value");
@@ -219,4 +148,21 @@ counterbtn.forEach(function (btn) {
     }
     value.textContent = count;
   });
+});
+
+// search
+
+$('#search').keyup(function () {
+  $('#result').html('');
+  var searchField = $('#search').val();
+  var expression = new RegExp(searchField, "i");
+  if(searchField){
+    $.getJSON('js/data.json', function (data) {
+      $.each(data, function (key, value) {
+        if (value.name.search(expression) != -1) {
+          $('#result').append('<li class="list-group-item d-flex justify-content-between"><img src="' + value.image + '"class="search-img" /> ' + ' <span class="name">' + value.name + '</span> ' + '<span class="price">' + '$' + value.price + '</span>' + '<button class="">Buy now</button>' + '</li>');
+        } 
+      });
+    });
+  }
 });

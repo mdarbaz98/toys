@@ -14,12 +14,6 @@ include('./include/header.php')
         <div class="col-lg-7 product-content">
           <h2>Men’s Sports Tshirts and Shorts</h2>
           <span>Select Size</span>
-          <div class="size-btns">
-            <button class="sizebtn active" data-id="btn1">32</button>
-            <button class="sizebtn" data-id="btn2">34</button>
-            <button class="sizebtn" data-id="btn3">36</button>
-            <button class="sizebtn" data-id="btn4">38</button>
-          </div>
           <div class="hide-div-phn d-flex">
             <p class="singleProPrice">$19.21</p>
             <div class="inc-dec d-flex">
@@ -42,11 +36,11 @@ include('./include/header.php')
     <!-- related -->
     <div class="related mb-5=">
       <div class="tshirt-heading">
-        <h2>Sports Wear</h2>
+        <h2 class="text-capitalize">Womwns</h2>
       </div>
       <div class="products_section">
         <div class="container-fluid">
-            <div class="row owl-carousel home-carousel-0">
+            <div class="row owl-carousel">
             </div>
         </div>
     </div>

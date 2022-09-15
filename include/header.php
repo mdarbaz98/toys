@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Toys</title>
@@ -14,22 +13,31 @@
     <!-- owl carousel  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="./css/index.css">
-</head>
-
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top bg-light">
-            <div class="container-fluid d-flex content-space-between">
-                <a class="navbar-brand" href="index.php"><img src="./assets/images/Newlands Clothings/Logo.png" alt="logo"><p>
-Newlands Clothings </p></a>
-                <div class="right-sdie-header d-flex gap-3">
-                        <form>
-                            <input type="text">
-                            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
-                        </form>
-                        <button class="cart-btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></button>
-                    </div>
+      <nav class="navbar navbar-expand-lg fixed-top bg-light">
+        <div class="container-fluid d-flex content-space-between">
+          <a class="navbar-brand" href="index.php">
+            <img src="./assets/images/Newlands Clothings/dog-logo.png" alt="logo">
+          </a>
+          <div class="right-sdie-header d-flex gap-3">
+            <div class="position-relative">
+              <form>
+                <input type="text" name="search" id="search">
+                <button class="search-btn">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </form>
+              <ul class="search-input" id="result">
+                </ul>
             </div>
-        </nav>
+            <button class="cart-btn">
+              <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+            </button>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
+      

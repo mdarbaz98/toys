@@ -3,45 +3,44 @@ include('./include/header.php')
 ?>
 <section class="home__page pb-lg-5">
     <div class="banner">
-        <img src="./assets/images/Newlands Clothings/banner-image.jpg" alt="banner-image">
-        <div class="content">
-            <h1>Bringing You the Elements of Style </h1>
-            <div class="buttons">
-                <div class="btn first-btn">
-                    Mens
-                </div>
-                <div class="btn sec-btn">
-                    Womens
-                </div>
-            </div>
-            <a href="">Explore All<i class="fa-solid fa-arrow-right"></i></a>
+    <div class="content">
+            <h1>Buy For Your Furry Friend.</h1>
+            <a onclick="scrollToElement('top')">Explore All<i class="fa-solid fa-arrow-right"></i></a>
         </div>
+        <img src="./assets/images/Newlands Clothings/lovely-pet-portrait-isolated.jpg" alt="banner-image">
     </div>
     <div class="products_section">
-        <div class="section-heading">Womens Dress</div>
+        <div class="section-heading" id="top">Grooming</div>
         <div class="container-fluid">
             <div class="row owl-carousel home-carousel-0">
             </div>
         </div>
     </div>
     <div class="products_section">
-        <div class="section-heading">Mens Hoodie</div>
-        <div class="container-fluid">
-            <div class="row owl-carousel home-men-carousel-0">
-            </div>
-        </div>
-    </div>
-    <div class="products_section">
-        <div class="section-heading">Womens denim</div>
+        <div class="section-heading">Wearables</div>
         <div class="container-fluid">
             <div class="row owl-carousel home-carousel-1">
             </div>
         </div>
     </div>
     <div class="products_section">
-        <div class="section-heading">Mens Shirt</div>
+        <div class="section-heading">Leash</div>
         <div class="container-fluid">
-            <div class="row owl-carousel home-men-carousel-1">
+            <div class="row owl-carousel home-carousel-2">
+            </div>
+        </div>
+    </div>
+    <div class="products_section">
+        <div class="section-heading">Toys</div>
+        <div class="container-fluid">
+            <div class="row owl-carousel home-carousel-3">
+            </div>
+        </div>
+    </div>
+    <div class="products_section">
+        <div class="section-heading">Pet Food</div>
+        <div class="container-fluid">
+            <div class="row owl-carousel home-carousel-4">
             </div>
         </div>
     </div>

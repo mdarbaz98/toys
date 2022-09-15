@@ -1,0 +1,352 @@
+[
+    {
+      "id": 1,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/814NqxE0y+L._AC_SY300_SX300_.jpg",
+      "name": "Purina Pro Plan with Probiotics",
+      "category": "Pet Food ",
+      "price": 63.98
+    },
+    {
+      "id": 2,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71ARAdkzz0L._AC_SX679_.jpg",
+      "name": "Purina ONE SmartBlend",
+      "category": "Pet Food ",
+      "price": 52.49
+    },
+    {
+      "id": 3,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/718cALWM+XL._AC_SX679_.jpg",
+      "name": "Royal Canin",
+      "category": "Pet Food ",
+      "price": 69.99
+    },
+    {
+      "id": 4,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81vdXPlrCML._AC_SX679_.jpg",
+      "name": "Rachael Ray Nutrish Dry Dog Food",
+      "category": "Pet Food ",
+      "price": 67.98
+    },
+    {
+      "id": 5,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81KfffWT78L._AC_SY879_.jpg",
+      "name": "VICTOR Super Premium Dog Food",
+      "category": "Pet Food ",
+      "price": 81.7
+    },
+    {
+      "id": 6,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/819y0lLPQsL._AC_SX679_.jpg",
+      "name": "Purina Moist & Meaty",
+      "category": "Pet Food ",
+      "price": 61.6
+    },
+    {
+      "id": 7,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/718apNj-crS._AC_SX679_.jpg",
+      "name": "IAMS Minichunks Dry Dog Food, Chicken",
+      "category": "Pet Food ",
+      "price": 91.99
+    },
+    {
+      "id": 8,
+      "image": "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/I/71frbllZ9mL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+      "name": "NUTRO NATURAL CHOICE",
+      "category": "Pet Food ",
+      "price": 88.9
+    },
+    {
+      "id": 9,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/818GKRD+N3L._AC_SX679_.jpg",
+      "name": "Stella & Chewy’s Freeze Dried Meal Mixer",
+      "category": "Pet Food ",
+      "price": 110.1
+    },
+    {
+      "id": 10,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81Ot6gQ5HML._AC_SX425_.jpg",
+      "name": "ORIJEN Dog Original Recipe",
+      "category": "Pet Food ",
+      "price": 150.49
+    },
+    {
+      "id": 11,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71+uRzljS8L._AC_SX679_.jpg",
+      "name": "SwiftPaws Home Original Remote-Control Toy - For Dogs - Flag Lure Course",
+      "category": "Toys",
+      "price": 499.99
+    },
+    {
+      "id": 12,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/31J+67SG+yL._AC_.jpg",
+      "name": "Star Wars for Pets Dog Toys",
+      "category": "Toys",
+      "price": 362.29
+    },
+    {
+      "id": 13,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61xXTYYQP5L._AC_SX679_.jpg",
+      "name": "Peeps for Pets Large Dress Up Plush Bunny Dog Toys",
+      "category": "Toys",
+      "price": 206.06
+    },
+    {
+      "id": 14,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71YJr+QSL2S._AC_SX679_.jpg",
+      "name": "Aumasxwus Dog Ball Toys",
+      "category": "Toys",
+      "price": 70.99
+    },
+    {
+      "id": 15,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61eGxjJItoL._AC_SX679_.jpg",
+      "name": "IDOGMATE Dog Ball Launcher,Automatic Dog Ball Launcher for Dogs Ball Dog Fetch",
+      "category": "Toys",
+      "price": 199.99
+    },
+    {
+      "id": 16,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71XgtSyEfLL._AC_SX679_.jpg",
+      "name": "XYQ Dogs Sleeping Toys Plush Teddy Chihuahua Play Toy Partner",
+      "category": "Toys",
+      "price": 139.99
+    },
+    {
+      "id": 17,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/614gCxl63bL._AC_SX679_.jpg",
+      "name": "Dog Chew Toy for Aggressive Chewers",
+      "category": "Toys",
+      "price": 130.4
+    },
+    {
+      "id": 18,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71DxhHVopsL._AC_SX679_.jpg",
+      "name": "SmartCoolous Dog Chew",
+      "category": "Toys",
+      "price": 99.99
+    },
+    {
+      "id": 19,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71FTw7K2-tL._AC_SX679_.jpg",
+      "name": "Chuck It! Ultra Ball Dog Toy",
+      "category": "Toys",
+      "price": 100.99
+    },
+    {
+      "id": 20,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71zC7rnOuCL._AC_SX679_.jpg",
+      "name": "ALL FOR PAWS Chill Out Splash and Fun Dog Pool",
+      "category": "Toys",
+      "price": 99.99
+    },
+    {
+      "id": 21,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71YTfq5S5xL._AC_SX569_.jpg",
+      "name": "Dean & Tyler Nylon Track Double Ply Dog Leash with a Ring on Handle",
+      "category": "Leash",
+      "price": 360.3
+    },
+    {
+      "id": 22,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81-lgftO2jL._AC_SX679_.jpg",
+      "name": "Dean and Tyler Stitched Track Dog Leash, Brown 50-Feet",
+      "category": "Leash",
+      "price": 303.97
+    },
+    {
+      "id": 23,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81XOmtojo3L._AC_SX679_.jpg",
+      "name": "Dean and Tyler Braided Track Dog Leash, Brown 50",
+      "category": "Leash",
+      "price": 309.5
+    },
+    {
+      "id": 24,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/412MIG240CL._AC_.jpg",
+      "name": "Dean and Tyler Braided Track Dog Leash, Brown 50",
+      "category": "Leash",
+      "price": 300.6
+    },
+    {
+      "id": 25,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81If1lMx0LL._AC_SX679_.jpg",
+      "name": "Dean & Tyler Nylon Track Double Ply Dog Leash with a Ring on Handle and Solid Brass Snap Hook",
+      "category": "Leash",
+      "price": 349.99
+    },
+    {
+      "id": 26,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71HcDYcXB9L._AC_SX569_.jpg",
+      "name": "Retractable Dog Leash",
+      "category": "Leash",
+      "price": 231.85
+    },
+    {
+      "id": 27,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71N6-ce56xL._AC_SX569_.jpg",
+      "name": " Padded Handle Leash",
+      "category": "Leash",
+      "price": 224.56
+    },
+    {
+      "id": 28,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/718YaQ5FJ9L._AC_SX679_.jpg",
+      "name": "Retractable Dog Leash",
+      "category": "Leash",
+      "price": 245.99
+    },
+    {
+      "id": 29,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71ZqqLa5ERL._AC_SX569_.jpg",
+      "name": "Leather Braided Dog Leash",
+      "category": "Leash",
+      "price": 286.59
+    },
+    {
+      "id": 30,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81JbpFinHZL._AC_SX679_.jpg",
+      "name": "Braided Track Dog Leash with Solid Brass",
+      "category": "Leash",
+      "price": 352.99
+    },
+    {
+      "id": 31,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71PKsIO4EHL._AC_SX569_.jpg",
+      "name": " Ear Cleansing Finger",
+      "category": "Grooming",
+      "price": 56.25
+    },
+    {
+      "id": 32,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71vh1yq8BVL._AC_SX679_.jpg",
+      "name": "Grooming Brush",
+      "category": "Grooming",
+      "price": 89.99
+    },
+    {
+      "id": 33,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81Di6rKAYPL._AC_SX679_.jpg",
+      "name": "Pet Wipes",
+      "category": "Grooming",
+      "price": 125.5
+    },
+    {
+      "id": 34,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81Ojnwt-9oL._SX679_.jpg",
+      "name": "Stripper Trimmer Tool ",
+      "category": "Grooming",
+      "price": 136.54
+    },
+    {
+      "id": 35,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61Uz0P0pu7L._SY450_.jpg",
+      "name": "Hair Slicker Brush",
+      "category": "Grooming",
+      "price": 185.45
+    },
+    {
+      "id": 36,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71lv4ZLQuPL._AC_SX679_.jpg",
+      "name": "Grooming Dryer ",
+      "category": "Grooming",
+      "price": 215.98
+    },
+    {
+      "id": 37,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71dtdvO36UL._AC_SX679_.jpg",
+      "name": " Dog Grooming Hammock",
+      "category": "Grooming",
+      "price": 285.5
+    },
+    {
+      "id": 38,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71kC2vfkQ7L._AC_SY879_.jpg",
+      "name": "Detachable Blade Clipper",
+      "category": "Grooming",
+      "price": 298.99
+    },
+    {
+      "id": 39,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71IY9HHOu9L._AC_SX679_.jpg",
+      "name": " Round Tip Dog Scissors ",
+      "category": "Grooming",
+      "price": 315.56
+    },
+    {
+      "id": 40,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/611mkzLLnSL._SX425_.jpg",
+      "name": " Dog Grooming Case ",
+      "category": "Grooming",
+      "price": 389.99
+    },
+    {
+      "id": 41,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/6188xoBWQtL._AC_SX679_.jpg",
+      "name": "Bathrobe Towel ",
+      "category": "Wearables",
+      "price": 65.25
+    },
+    {
+      "id": 42,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61Ps4X9gaKL._AC_SX679_.jpg",
+      "name": " Wearable Dog Treat Bag",
+      "category": "Wearables",
+      "price": 56.25
+    },
+    {
+      "id": 43,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61aQq9JVlIL._AC_SX679_.jpg",
+      "name": " Pet Carrier Backpack ",
+      "category": "Wearables",
+      "price": 75.26
+    },
+    {
+      "id": 44,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61l6MF9WhGL._AC_SX679_.jpg",
+      "name": " Warm Dog Shoes ",
+      "category": "Wearables",
+      "price": 125.25
+    },
+    {
+      "id": 45,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51052ovqZcL._AC_SX679_.jpg",
+      "name": "Silicone Dog Treat Pouch",
+      "category": "Wearables",
+      "price": 156.52
+    },
+    {
+      "id": 46,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/714jPkvQksL._AC_SX679_.jpg",
+      "name": "Casual Dog Blue and Black Plaid Shirt ",
+      "category": "Wearables",
+      "price": 198.55
+    },
+    {
+      "id": 47,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81WS24C+DRL._AC_SX679_.jpg",
+      "name": "Dog Carrier Backpack",
+      "category": "Wearables",
+      "price": 225.56
+    },
+    {
+      "id": 48,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81rKy-rXrUL._AC_SX679_.jpg",
+      "name": " Dog Striped T-Shirt ",
+      "category": "Wearables",
+      "price": 254.82
+    },
+    {
+      "id": 49,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71t9NkZ+tiS._AC_SX679_.jpg",
+      "name": " Dog Raincoats with Hood ",
+      "category": "Wearables",
+      "price": 298.99
+    },
+    {
+      "id": 50,
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61-p-zXEKNL._AC_SX679_.jpg",
+      "name": "Geyecete Dog Drying Coat",
+      "category": "Wearables",
+      "price": 324.52
+    }
+   ]
