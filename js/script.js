@@ -70,50 +70,50 @@ function getItem(item) {
   window.location.href = `product.php?name=${name}&image=${img}&price=${price}&category=${category}`;
 }
 
-// function setSingleProduct() {
-//   let params = new URLSearchParams(location.search);
-//   let name = params.get("name");
-//   let image = params.get("image");
-//   let price = params.get("price");
-//   let category = params.get("category");
-//   $(".product-content h2").html(name);
-//   $(".singleProImage").attr("src", image);
-//   $(".singleProPrice").html(price);
-//   $(".tshirt-heading h2").html(`${category.toLocaleLowerCase()}`);
-//   switch (category.toLowerCase()) {
-//     case "dress":
-//       $(".productpage-main .owl-carousel").addClass("home-carousel-0");
-//       break;
-//     case "denim":
-//       $(".productpage-main .owl-carousel").addClass("home-carousel-1");
-//       break;
-//     case "t-shirt":
-//       $(".productpage-main .owl-carousel").addClass("home-carousel-2");
-//       break;
-//     case "shoes":
-//       $(".productpage-main .owl-carousel").addClass("home-carousel-3");
-//       break;
-//     case "skirts":
-//       $(".productpage-main .owl-carousel").addClass("home-carousel-4");
-//       break;
-//     case "sports wear":
-//       $(".productpage-main .owl-carousel").addClass("home-carousel-5");
-//       break;
-//     case "hoodie":
-//       $(".productpage-main .owl-carousel").addClass("home-men-carousel-0");
-//       break;
-//     case "shirts":
-//       $(".productpage-main .owl-carousel").addClass("home-men-carousel-1");
-//       break;
-//     case "jeans":
-//       $(".productpage-main .owl-carousel").addClass("home-men-carousel-3");
-//       break;
-//     case "trouser":
-//       $(".productpage-main .owl-carousel").addClass("home-men-carousel-4");
-//       break;
-//   }
-// }
-// setSingleProduct();
+function setSingleProduct() {
+  let params = new URLSearchParams(location.search);
+  let name = params.get("name");
+  let image = params.get("image");
+  let price = params.get("price");
+  let category = params.get("category");
+  $(".product-content h2").html(name);
+  $(".singleProImage").attr("src", image);
+  $(".singleProPrice").html(price);
+  $(".tshirt-heading h2").html(`${category.toLowerCase()}`);
+  switch (category.toLowerCase()) {
+    case "dress":
+      $(".productpage-main .owl-carousel").addClass("home-carousel-0");
+      break;
+    case "denim":
+      $(".productpage-main .owl-carousel").addClass("home-carousel-1");
+      break;
+    case "t-shirt":
+      $(".productpage-main .owl-carousel").addClass("home-carousel-2");
+      break;
+    case "shoes":
+      $(".productpage-main .owl-carousel").addClass("home-carousel-3");
+      break;
+    case "skirts":
+      $(".productpage-main .owl-carousel").addClass("home-carousel-4");
+      break;
+    case "sports wear":
+      $(".productpage-main .owl-carousel").addClass("home-carousel-5");
+      break;
+    case "hoodie":
+      $(".productpage-main .owl-carousel").addClass("home-men-carousel-0");
+      break;
+    case "shirts":
+      $(".productpage-main .owl-carousel").addClass("home-men-carousel-1");
+      break;
+    case "jeans":
+      $(".productpage-main .owl-carousel").addClass("home-men-carousel-3");
+      break;
+    case "trouser":
+      $(".productpage-main .owl-carousel").addClass("home-men-carousel-4");
+      break;
+  }
+}
+setSingleProduct();
 
 // $(window).scroll(function () {
 //   if ($(window).width() < 500) {

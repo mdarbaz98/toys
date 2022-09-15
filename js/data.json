@@ -3,70 +3,70 @@
       "id": 1,
       "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/814NqxE0y+L._AC_SY300_SX300_.jpg",
       "name": "Purina Pro Plan with Probiotics",
-      "category": "Pet Food ",
+      "category": "Pet Food",
       "price": 63.98
     },
     {
       "id": 2,
       "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71ARAdkzz0L._AC_SX679_.jpg",
       "name": "Purina ONE SmartBlend",
-      "category": "Pet Food ",
+      "category": "Pet Food",
       "price": 52.49
     },
     {
       "id": 3,
       "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/718cALWM+XL._AC_SX679_.jpg",
       "name": "Royal Canin",
-      "category": "Pet Food ",
+      "category": "Pet Food",
       "price": 69.99
     },
     {
       "id": 4,
       "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81vdXPlrCML._AC_SX679_.jpg",
       "name": "Rachael Ray Nutrish Dry Dog Food",
-      "category": "Pet Food ",
+      "category": "Pet Food",
       "price": 67.98
     },
     {
       "id": 5,
       "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81KfffWT78L._AC_SY879_.jpg",
       "name": "VICTOR Super Premium Dog Food",
-      "category": "Pet Food ",
+      "category": "Pet Food",
       "price": 81.7
     },
     {
       "id": 6,
       "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/819y0lLPQsL._AC_SX679_.jpg",
       "name": "Purina Moist & Meaty",
-      "category": "Pet Food ",
+      "category": "Pet Food",
       "price": 61.6
     },
     {
       "id": 7,
       "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/718apNj-crS._AC_SX679_.jpg",
       "name": "IAMS Minichunks Dry Dog Food, Chicken",
-      "category": "Pet Food ",
+      "category": "Pet Food",
       "price": 91.99
     },
     {
       "id": 8,
       "image": "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/I/71frbllZ9mL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
       "name": "NUTRO NATURAL CHOICE",
-      "category": "Pet Food ",
+      "category": "Pet Food",
       "price": 88.9
     },
     {
       "id": 9,
       "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/818GKRD+N3L._AC_SX679_.jpg",
       "name": "Stella & Chewy’s Freeze Dried Meal Mixer",
-      "category": "Pet Food ",
+      "category": "Pet Food",
       "price": 110.1
     },
     {
       "id": 10,
       "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81Ot6gQ5HML._AC_SX425_.jpg",
       "name": "ORIJEN Dog Original Recipe",
-      "category": "Pet Food ",
+      "category": "Pet Food",
       "price": 150.49
     },
     {
