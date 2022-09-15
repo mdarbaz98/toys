@@ -263,8 +263,8 @@ footer .middle-section {
   gap: 20px;
   align-items: center;
   position: absolute;
-  top: 45%;
-  left: 36%;
+  top: 23%;
+  left: 32%;
 }
 footer .middle-section .footer-heading img {
   width: 75px;
@@ -481,10 +481,12 @@ footer .middle-section p {
     padding: 0px 28px 0px 10px;
   }
   .home__page .banner {
-    display: block;
+    display: flex;
+    flex-direction: column-reverse;
   }
   .home__page .banner img {
     min-height: 471px;
+    height: 300px;
   }
   .home__page .banner .content h1 {
     font-size: 22px;
@@ -494,7 +496,7 @@ footer .middle-section p {
     margin-bottom: 40px;
   }
   .home__page .banner .content a {
-    margin-top: 40px;
+    margin-top: 0px;
   }
   .home__page .products_section {
     margin-top: 50px;

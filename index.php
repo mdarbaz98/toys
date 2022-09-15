@@ -3,7 +3,7 @@ include('./include/header.php')
 ?>
 <section class="home__page pb-lg-5">
     <div class="banner">
-    <div class="content">
+        <div class="content">
             <h1>Buy For Your Furry Friend.</h1>
             <a onclick="scrollToElement('top')">Explore All<i class="fa-solid fa-arrow-right"></i></a>
         </div>

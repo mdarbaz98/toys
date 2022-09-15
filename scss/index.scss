@@ -220,8 +220,8 @@ footer {
         gap: 20px;
         align-items: center;
         position: absolute;
-        top: 45%;
-        left: 36%;
+        top: 23%;
+        left: 32%;
 
         .footer-heading {
             img {
@@ -470,10 +470,12 @@ footer {
 
     .home__page {
         .banner {
-            display: block;
+            display: flex;
+            flex-direction: column-reverse;
 
             img {
                 min-height: 471px;
+                height: 300px;
             }
 
             .content {
@@ -486,7 +488,7 @@ footer {
                 }
 
                 a {
-                    margin-top: 40px;
+                    margin-top: 0px;
                 }
             }
         }
