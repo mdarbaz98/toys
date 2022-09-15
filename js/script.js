@@ -79,37 +79,22 @@ function setSingleProduct() {
   $(".product-content h2").html(name);
   $(".singleProImage").attr("src", image);
   $(".singleProPrice").html(price);
-  $(".tshirt-heading h2").html(`${category.toLowerCase()}`);
+  // $(".tshirt-heading h2").html(`${ category.toLowerCase()}`);
   switch (category.toLowerCase()) {
-    case "dress":
+    case "grooming":
       $(".productpage-main .owl-carousel").addClass("home-carousel-0");
       break;
-    case "denim":
+    case "wearables":
       $(".productpage-main .owl-carousel").addClass("home-carousel-1");
       break;
-    case "t-shirt":
+    case "leash":
       $(".productpage-main .owl-carousel").addClass("home-carousel-2");
       break;
-    case "shoes":
+    case "toys":
       $(".productpage-main .owl-carousel").addClass("home-carousel-3");
       break;
-    case "skirts":
+    case "pet food":
       $(".productpage-main .owl-carousel").addClass("home-carousel-4");
-      break;
-    case "sports wear":
-      $(".productpage-main .owl-carousel").addClass("home-carousel-5");
-      break;
-    case "hoodie":
-      $(".productpage-main .owl-carousel").addClass("home-men-carousel-0");
-      break;
-    case "shirts":
-      $(".productpage-main .owl-carousel").addClass("home-men-carousel-1");
-      break;
-    case "jeans":
-      $(".productpage-main .owl-carousel").addClass("home-men-carousel-3");
-      break;
-    case "trouser":
-      $(".productpage-main .owl-carousel").addClass("home-men-carousel-4");
       break;
   }
 }
