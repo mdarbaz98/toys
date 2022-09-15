@@ -80,7 +80,7 @@ function setSingleProduct() {
   $(".singleProImage").attr("src", image);
   $(".singleProPrice").html(price);
   // $(".tshirt-heading h2").html(`${ category.toLowerCase()}`);
-  switch (category.toLowerCase()) {
+  switch (category && category.toLowerCase()) {
     case "grooming":
       $(".productpage-main .owl-carousel").addClass("home-carousel-0");
       break;

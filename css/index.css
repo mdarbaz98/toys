@@ -78,6 +78,7 @@ nav.bg-light .search-input .list-group-item {
   border-radius: 16px;
   border-top: none;
   width: 380px;
+  margin: 10px 5px 10px 5px;
 }
 nav.bg-light .search-input .search-img {
   width: 30px;
