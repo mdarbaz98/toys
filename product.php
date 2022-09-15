@@ -36,7 +36,7 @@ include('./include/header.php')
     <!-- related -->
     <div class="related mb-5=">
       <div class="tshirt-heading">
-        <h2 class="text-capitalize">Womwns</h2>
+        <h2 class="text-capitalize">Womens</h2>
       </div>
       <div class="products_section">
         <div class="container-fluid">
