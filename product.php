@@ -9,12 +9,12 @@ include('./include/header.php')
     <div class="container">
       <div class="row">
         <div class="col-lg-5 product-img">
-          <img class="singleProImage" src="./assets/images/Newlands Clothings/Product Image/Sports-Wear-PNG-Photos.png" alt="">
+          <img class="singleProImage" src="" alt="">
         </div>
         <div class="col-lg-7 product-content">
-          <h2>Men’s Sports Tshirts and Shorts</h2>
+          <h2 class="mt-4 mt-lg-0"></h2>
           <div class="hide-div-phn d-flex">
-            <p class="singleProPrice">$19.21</p>
+            <p class="singleProPrice"></p>
             <div class="inc-dec d-flex">
             <button class="counterbtn decrease">
                 <i class="fa-solid fa-minus"></i>
@@ -35,7 +35,7 @@ include('./include/header.php')
     <!-- related -->
     <div class="related mb-5=">
       <div class="tshirt-heading">
-        <h2 class="text-capitalize">Womens</h2>
+        <h2 class="text-capitalize mb-5 mb-lg-0">Related Products</h2>
       </div>
       <div class="products_section">
         <div class="container-fluid">

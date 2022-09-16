@@ -70,6 +70,31 @@ function getItem(item) {
   window.location.href = `product.php?name=${name}&image=${img}&price=${price}&category=${category}`;
 }
 
+// search
+
+$('#search').keyup(function () {
+  $('#result').html('');
+  var searchField = $('#search').val();
+  var expression = new RegExp(searchField, "i");
+  if(searchField){
+    $.getJSON('js/data.json', function (data) {
+      $.each(data, function (key, value) {
+        if (value.name.search(expression) != -1) {
+          $('#result').append('<li onclick="getItemSearch(this)" class="list-group-item d-flex justify-content-between"><img src="' + value.image + '"class="search-img" /> ' + ' <span class="name"><span class="d-none category">'+value.category+'</span>' + value.name + '</span> ' + '<span class="price">' + '$' + value.price + '</span>' + '<button class="">Buy now</button>' + '</li>');
+        } 
+      });
+    });
+  }
+});
+
+function getItemSearch(item) {
+  var img = $(item).find("img")[0].currentSrc,
+  name = $(item).find(".name")[0].textContent.trim(),
+  price = $(item).find(".price")[0].textContent.trim(),
+  category = $(item).find(".category")[0].textContent.trim();
+window.location.href = `product.php?name=${name}&image=${img}&price=${price}&category=${category}`;
+}
+
 function setSingleProduct() {
   let params = new URLSearchParams(location.search);
   let name = params.get("name");
@@ -100,14 +125,6 @@ function setSingleProduct() {
 }
 setSingleProduct();
 
-// $(window).scroll(function () {
-//   if ($(window).width() < 500) {
-//     $(".navbar-brand img").animate({ width: "25px" });
-//   } else {
-//     $(".navbar-brand img").animate({ width: "35px" });
-//   }
-// });
-
 // smoothscroll fucntion
 function scrollToElement(elementId) {
   const yOffset = -90;
@@ -135,19 +152,3 @@ counterbtn.forEach(function (btn) {
   });
 });
 
-// search
-
-$('#search').keyup(function () {
-  $('#result').html('');
-  var searchField = $('#search').val();
-  var expression = new RegExp(searchField, "i");
-  if(searchField){
-    $.getJSON('js/data.json', function (data) {
-      $.each(data, function (key, value) {
-        if (value.name.search(expression) != -1) {
-          $('#result').append('<li class="list-group-item d-flex justify-content-between"><img src="' + value.image + '"class="search-img" /> ' + ' <span class="name">' + value.name + '</span> ' + '<span class="price">' + '$' + value.price + '</span>' + '<button class="">Buy now</button>' + '</li>');
-        } 
-      });
-    });
-  }
-});

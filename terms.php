@@ -35,7 +35,39 @@ include('./include/header.php')
                         <img src="./assets/images/Newlands Clothings/list.png" alt="">
                         <h1>Terms and Conditions</h1>
                     </div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident magnam facilis tempore optio maxime ipsam sint! Quae quia veritatis inventore, et suscipit voluptates itaque molestiae aperiam unde tempora reiciendis eos asperiores totam officiis? Voluptatibus, accusamus necessitatibus ullam blanditiis cum ut sapiente vel repellendus adipisci, cumque nobis, quod facere delectus molestias eum earum saepe optio inventore fuga fugit non perferendis accusantium totam? Cumque quidem dignissimos quis quaerat magni obcaecati tempora facere blanditiis sed eaque ab, sint sapiente vel voluptatum est possimus! Inventore harum deserunt ut quia ipsum reprehenderit amet iusto dolor vero perferendis ipsa, ratione tenetur quaerat. Rem neque quidem recusandae!</p>
+                    <p>You cannot host, upload, display, modify, transmit, update, publish, or share any information
+which:</p>
+<ul type="A">
+    <li>mistreat, mislead, defame, harass, intimidate, stalk, or otherwise infringe the legal rights of
+others;</li>
+<li>is ambiguous in any way;</li>
+<li>has harmful, offensive, obscene, indecent</li>
+<li>Contains software or other material, intellectual property rights which basically need
+consent.</li>
+
+<li>Violates the rights of any third party. These rights may include rights of privacy, intellectual
+property rights</li>
+<li>Violation of any code of conduct or other guidelines</li>
+<li>Contains viruses, any computer code or program that may damage the Website’s, or any
+other computer’s, operations;</li>
+<li>offers material that takes advantage of people in a sexual, brutal or
+otherwise inappropriate way or ask for personal information from anyone;</li>
+<li>offers instructional information about activities which are against the law such as creating
+or buying illegal arms, violating someone’s privacy, or creating computer viruses;</li>
+<li>invites people for gambling or engages them in any gambling activity which We, in our sole
+discretion, believe is or could be understood as illegal;</li>
+<li>violates any current law;</li>
+<li>is a threat to the integrity, unity, defence, sovereignty or security of India, public order,
+relations of India with foreign states; or causes provocation to the commission of any
+perceptible offence or prevents the investigation of any offence or is abusive to any other
+country.</li>
+<li>You can’t use, copy or store any content of this Website, in whole or in part, for commercial
+purpose without the explicit permission of Doggtastic Adventures;</li>
+<li>Doggtastic Adventures is wholly committed to provide and make available the best prices
+possible on products to its users. However, there is no guarantee that the cost will be theless in
+the town, region or geography. Prices and accessibility are subject to change without notice or
+any significant legal responsibility on the Doggtastic Adventures;</li>
+</ul>
                 </div>
             </div>
         </div>
