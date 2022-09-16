@@ -9,9 +9,6 @@ html {
   scroll-behavior: smooth;
 }
 
-nav.bg-light {
-  background-color: transparent !important;
-}
 nav.bg-light .search-input {
   background-color: #fff;
 }
@@ -135,17 +132,17 @@ nav.bg-light .search-input button {
   margin-bottom: 60px;
   color: #233570;
 }
-.home__page .banner .content a {
+.home__page .banner .content button {
+  background-color: #233570;
+}
+.home__page .banner .content button a {
   cursor: pointer;
   position: relative;
-  color: #233570;
+  color: #FFFFFF;
   margin-top: 0px;
 }
-.home__page .banner .content a i {
-  position: absolute;
-  bottom: -20px;
-  left: 50%;
-  transform: translateX(-50%);
+.home__page .banner .content button a i {
+  margin-left: 10px;
   transform: rotate(90deg);
 }
 .home__page .products_section {
@@ -332,6 +329,8 @@ footer .middle-section p {
 .privacy__page .side-topic,
 .terms__page .side-topic {
   padding-left: 0px;
+  position: sticky;
+  top: 90px;
 }
 .privacy__page .side-topic li,
 .terms__page .side-topic li {
@@ -380,6 +379,10 @@ footer .middle-section p {
   line-height: 25px;
   letter-spacing: 0em;
   text-align: left;
+}
+.privacy__page .content li,
+.terms__page .content li {
+  margin-bottom: 20px;
 }
 
 .about__page {

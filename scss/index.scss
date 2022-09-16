@@ -25,7 +25,6 @@ $font-lato: "Lato", sans-serif;
 
 // header scss
 nav.bg-light {
-    background-color: transparent !important;
     .search-input{
         background-color: #fff
     }
@@ -169,18 +168,23 @@ nav.bg-light {
                 color: #233570;
             }
 
-            a {
-                cursor: pointer;
-                position: relative;
-                color: #233570;
-                margin-top: 0px;
+            button{
+                background-color: #233570;
 
-                i {
-                    position: absolute;
-                    bottom: -20px;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    transform: rotate(90deg);
+                a {
+                    cursor: pointer;
+                    position: relative;
+                    color: #FFFFFF;
+                    margin-top: 0px;
+    
+                    i {
+                        // position: absolute;
+                        // bottom: -20px;
+                        // left: 50%;
+                        // transform: translateX(-50%);
+                        margin-left: 10px;
+                        transform: rotate(90deg);
+                    }
                 }
             }
         }
@@ -301,6 +305,8 @@ footer {
 
     .side-topic {
         padding-left: 0px;
+        position: sticky;
+        top: 90px;
 
         li {
             padding-left: 10px;
@@ -349,6 +355,11 @@ footer {
         line-height: 25px;
         letter-spacing: 0em;
         text-align: left;
+    }
+    .content{
+        li{
+            margin-bottom: 20px;
+        }
     }
 }
 

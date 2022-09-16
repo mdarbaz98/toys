@@ -23,7 +23,7 @@ function owlFunction() {
 fetch("js/data.json")
   .then((res) => res.json())
   .then((data) => {
-    var array = ["Grooming","Wearables","Leash","Toys","Pet Food"];
+    var array = ["Pet Food","Toys","Wearables","Grooming","Leash"];
     array.forEach((element, ind) => {
       var result = "";
       data

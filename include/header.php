@@ -19,7 +19,7 @@
     <header>
       <nav class="navbar navbar-expand-lg fixed-top bg-light">
         <div class="container-fluid d-flex content-space-between">
-          <a class="navbar-brand" href="index.php">
+          <a class="navbar-brand" href="/">
             <img src="./assets/images/Newlands Clothings/dog-logo.png" alt="logo">
           </a>
           <div class="right-sdie-header d-flex gap-3">

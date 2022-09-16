@@ -5,40 +5,40 @@ include('./include/header.php')
     <div class="banner">
         <div class="content">
             <h1>Buy For Your Furry Friend.</h1>
-            <a onclick="scrollToElement('top')">Explore All<i class="fa-solid fa-arrow-right"></i></a>
+            <button class="btn"><a onclick="scrollToElement('top')">Explore All<i class="fa-solid fa-arrow-right"></i></a></button>
         </div>
         <img src="./assets/images/Newlands Clothings/lovely-pet-portrait-isolated.jpg" alt="banner-image">
     </div>
     <div class="products_section">
-        <div class="section-heading" id="top">Grooming</div>
+        <div class="section-heading" id="top">Pet Food</div>
         <div class="container-fluid">
             <div class="row owl-carousel home-carousel-0">
             </div>
         </div>
     </div>
     <div class="products_section">
-        <div class="section-heading">Wearables</div>
+        <div class="section-heading">Toys</div>
         <div class="container-fluid">
             <div class="row owl-carousel home-carousel-1">
             </div>
         </div>
     </div>
     <div class="products_section">
-        <div class="section-heading">Leash</div>
+        <div class="section-heading">Wearables</div>
         <div class="container-fluid">
             <div class="row owl-carousel home-carousel-2">
             </div>
         </div>
     </div>
     <div class="products_section">
-        <div class="section-heading">Toys</div>
+        <div class="section-heading">Grooming</div>
         <div class="container-fluid">
             <div class="row owl-carousel home-carousel-3">
             </div>
         </div>
     </div>
     <div class="products_section">
-        <div class="section-heading">Pet Food</div>
+        <div class="section-heading">Leash</div>
         <div class="container-fluid">
             <div class="row owl-carousel home-carousel-4">
             </div>

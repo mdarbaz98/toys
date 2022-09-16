@@ -14,26 +14,20 @@ include('./include/header.php')
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                             <ul class="side-topic accordion-body">
-                                <li><a href="#fst">Where does it come from</a></li>
-                                <li><a href="">Log Data</a></li>
-                                <li><a href="">Communication</a></li>
-                                <li><a href="">Security</a></li>
+                                <li onclick="scrollToElement('t1')"><a>Terms and Conditions</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <ul class="side-topic d-none d-lg-block">
-                    <li><a href="#fst">Where does it come from</a></li>
-                    <li><a href="">Log Data</a></li>
-                    <li><a href="">Communication</a></li>
-                    <li><a href="">Security</a></li>
+                <li onclick="scrollToElement('t1')"><a>Terms and Conditions</a></li>
                 </ul>
             </div>
             <div class="col-lg-9 col-12">
                 <div class="content">
                     <div class="heading-section">
                         <img src="./assets/images/Newlands Clothings/list.png" alt="">
-                        <h1>Terms and Conditions</h1>
+                        <h1 id="t1">Terms and Conditions</h1>
                     </div>
                     <p>You cannot host, upload, display, modify, transmit, update, publish, or share any information
 which:</p>

@@ -14,19 +14,17 @@ include('./include/header.php')
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                             <ul class="side-topic accordion-body">
-                                <li><a href="#fst">Where does it come from</a></li>
-                                <li><a href="">Log Data</a></li>
-                                <li><a href="">Communication</a></li>
-                                <li><a href="">Security</a></li>
+                                <li onclick="scrollToElement('1')"><a>Return Policy</a></li>
+                                <li onclick="scrollToElement('2')"><a>Cancellation Policy</a></li>
+                                <li onclick="scrollToElement('3')"><a>Collection of personal data</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <ul class="side-topic d-none d-lg-block">
-                    <li><a href="#fst">Where does it come from</a></li>
-                    <li><a href="">Log Data</a></li>
-                    <li><a href="">Communication</a></li>
-                    <li><a href="">Security</a></li>
+                <li onclick="scrollToElement('1')"><a>Return Policy</a></li>
+                                <li onclick="scrollToElement('2')"><a>Cancellation Policy</a></li>
+                                <li onclick="scrollToElement('3')"><a>Collection of personal data</a></li>
                 </ul>
             </div>
             <div class="col-lg-9 col-12">
@@ -35,7 +33,7 @@ include('./include/header.php')
                         <img src="./assets/images/Newlands Clothings/gard.png" alt="">
                         <h1>Privacy Policy</h1>
                     </div>
-                    <p>Return Policy</p>
+                    <h2 id="1">Return Policy</h2>
                     <p>How can place a replacement request on doggtasticadventures.com?</p>
                     <p>You can apply for replace within 10 days of the delivery. For a replacement request due to any
 reason, you just need to call us along with the details of your product. Once the replace request
@@ -55,7 +53,7 @@ thorough research. Still, if you raise a request for return or replacement if yo
 with the quality of product; our quality team will cross-check with the thorough quality
 inspection methods. If our team finds that your request is genuine and replacement can be
 made, it will be processed at the earliest.</p>
-<p>Cancellation Policy</p>
+<h2 id="2">Cancellation Policy</h2>
 <p>How can place a cancellation request on doggtasticadventures.com?</p>
 <p>Cancellation requests can be raised only before the time we dispatch your order. Once your
 product has been dispatched, you can’t make a request for cancellation. If you wish to cancel
@@ -69,7 +67,7 @@ cancellation of your product:</p>
 <p>The product was not available with us.</p>
 <p>Inaccuracy in pricing.   </p>
 <p>Credit/Debit card information given by you was not enough or was not accurate.</p>
-<p>Collection of personal data</p>
+<h2 id="3">Collection of personal data</h2>
 <p>Personal information or data” is defined to include information that whether on its own or in
 combo with other information/data may be used to readily identify or contact you such as:
 name, address, email address, phone number etc.</p>
